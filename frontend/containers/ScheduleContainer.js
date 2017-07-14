@@ -1,20 +1,17 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
-import Title from '../components/Title';
-// import CalendarContainer from './CalendarContainer';
 
-const AppContainer = ({ name }) => {
+
+const ScheduleContainer = () => {
     return (
         <div>
-            <Title name={name} />
-
-            {/* <CalendarContainer /> */}
+            hello
         </div>
     );
 };
 
-AppContainer.propTypes = {
+ScheduleContainer.propTypes = {
     name: PropTypes.string,
 };
 
@@ -32,4 +29,4 @@ const mapDispatchToProps = (/* dispatch */) => {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(AppContainer);
+)(ScheduleContainer);
