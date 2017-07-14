@@ -1,7 +1,7 @@
 var chem101 = require('./origin');
 fs = require('fs');
 
-var demo = chem101.result_data; 
+var demo = chem101.result_data;
 
 function dealwithOneCourse(demo) {
   var classObj = {LEC: [], REC: [], LAB:[], courseName:'', courseDescription:''};
