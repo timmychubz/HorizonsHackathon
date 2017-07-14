@@ -1,0 +1,118 @@
+{
+    "result_data": [
+        {
+            "activity": "LEC",
+            "activity_description": "Lecture",
+            "corequisite_activity": "",
+            "corequisite_activity_description": "",
+            "course_department": "BIBB",
+            "course_description": "There are currently major advances in understanding how the brain works. Whereas sixty years ago, it was believed that the mature brain was a fixed structure, new research shows not only that the brain can change, but also that it changes continuously throughtout life. An overview of neuroplasticity,as it refers to change in the nervous syste, will be presented in this course. Major topics will regard: an introduction to the brain anatomy necessary in explanations of neuroplastic changes that occur in response to the nerve injury and brain damage; a consideration of addiction and pain as conditions involving maladaptive forms of neuroplasticity; and an overview of lifelong brain changes illustrating neuroplasticity as a lifelong process.",
+            "course_description_url": "",
+            "course_meeting_message": "",
+            "course_notes": "",
+            "course_notes_message": "",
+            "course_number": "080",
+            "course_status": "O",
+            "course_status_normalized": "Open",
+            "course_status_reason_code": "",
+            "course_terms_offered": "",
+            "course_title": "Brain Changes Through Tragedy and Triumph",
+            "credit_and_grade_type": "1 CU",
+            "credit_connector": "F",
+            "credit_type": "CU",
+            "credits": "1 CU",
+            "crosslist_primary": "",
+            "crosslistings": [],
+            "department_description": "Biological Basis of Behavior",
+            "department_url": "http://www.sas.upenn.edu/bbb/",
+            "end_date": "2017-12-11T05:00:00Z",
+            "first_meeting_days": "MW02:00 PMLLAB109",
+            "fulfills_college_requirements": [],
+            "grade_type": "",
+            "important_notes": [
+                "Course is available to Freshmen.",
+                "Freshman Seminar",
+                "Freshman Seminar"
+            ],
+            "instructors": [
+                {
+                    "name": "Jacqueline Cunningham",
+                    "section_id": "BIBB080301",
+                    "term": "2017C"
+                }
+            ],
+            "is_cancelled": false,
+            "is_closed": false,
+            "is_crosslist_primary": false,
+            "is_not_scheduled": false,
+            "is_special_session": false,
+            "labs": [],
+            "lectures": [],
+            "max_enrollment": "20",
+            "max_enrollment_crosslist": "20",
+            "maximum_credit": "1",
+            "meetings": [
+                {
+                    "building_code": "",
+                    "building_name": "",
+                    "end_hour_24": 15,
+                    "end_minutes": 30,
+                    "end_time": "03:30 PM",
+                    "end_time_24": 15.3,
+                    "meeting_days": "MW",
+                    "room_number": "",
+                    "section_id": "BIBB080301",
+                    "section_id_normalized": "BIBB-080-301",
+                    "start_hour_24": 14,
+                    "start_minutes": 0,
+                    "start_time": "02:00 PM",
+                    "start_time_24": 14,
+                    "term": "2017C"
+                }
+            ],
+            "minimum_credit": "1",
+            "prerequisite_notes": [],
+            "primary_instructor": "",
+            "recitations": [],
+            "requirements": [
+                {
+                    "argument": "",
+                    "registration_control_code": "MFS",
+                    "requirement_description": "Freshman Seminar",
+                    "section_id": "BIBB080301",
+                    "term": "2017C",
+                    "value": "",
+                    "value_normalized": ""
+                },
+                {
+                    "argument": "",
+                    "registration_control_code": "MFS",
+                    "requirement_description": "Freshman Seminar",
+                    "section_id": "BIBB080301",
+                    "term": "2017C",
+                    "value": "",
+                    "value_normalized": ""
+                }
+            ],
+            "requirements_title": "Associated Courses",
+            "section_id": "BIBB080301",
+            "section_id_normalized": "BIBB-080-301",
+            "section_number": "301",
+            "section_title": "Brain Changes Through Tragedy and Triumph",
+            "start_date": "2017-08-29T04:00:00Z",
+            "syllabus_url": "",
+            "term": "2017C",
+            "term_normalized": "Fall 2017",
+            "term_session": "",
+            "third_party_links": []
+        }
+    ],
+    "service_meta": {
+        "current_page_number": 1,
+        "error_text": "",
+        "next_page_number": 1,
+        "number_of_pages": 1,
+        "previous_page_number": 1,
+        "results_per_page": 20
+    }
+}
