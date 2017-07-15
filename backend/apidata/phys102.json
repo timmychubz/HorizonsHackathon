@@ -1,1 +1,101 @@
-{"LEC":[{"courseName":"General Physics: Electromagnetism, Optics, and Modern Physics","instructor":"Jay Kikkawa","id":"PHYS102001","info":{"department":"PHYS","courseNumber":"102","sectionNumber":"001"},"fullfillRequirement":["College Quantitative Data Analysis Req.","Physical World Sector"],"preReq":["PHYS 101"],"time":{"start":9,"end":10,"day":"TR"}}],"REC":[],"LAB":[{"courseName":"General Physics: Electromagnetism, Optics, and Modern Physics","id":"PHYS102111","info":{"department":"PHYS","courseNumber":"102","sectionNumber":"111"},"time":{"start":13,"end":15,"day":"M"}},{"courseName":"General Physics: Electromagnetism, Optics, and Modern Physics","id":"PHYS102112","info":{"department":"PHYS","courseNumber":"102","sectionNumber":"112"},"time":{"start":15,"end":17,"day":"M"}},{"courseName":"General Physics: Electromagnetism, Optics, and Modern Physics","id":"PHYS102113","info":{"department":"PHYS","courseNumber":"102","sectionNumber":"113"},"time":{"start":13,"end":15,"day":"T"}},{"courseName":"General Physics: Electromagnetism, Optics, and Modern Physics","id":"PHYS102114","info":{"department":"PHYS","courseNumber":"102","sectionNumber":"114"},"time":{"start":15,"end":17,"day":"T"}},{"courseName":"General Physics: Electromagnetism, Optics, and Modern Physics","id":"PHYS102115","info":{"department":"PHYS","courseNumber":"102","sectionNumber":"115"},"time":{"start":13,"end":15,"day":"F"}}],"courseName":"General Physics: Electromagnetism, Optics, and Modern Physics","courseDescription":"A continuation of PHYS 101 emphasizing an introduction to classical electricity and magnetism, relativity theory, optics, and the quantum theory of matter, requiring a background in calculus. Suggested for students in a pre-health program. Credit is awarded for only one of the following courses: PHYS 009, PHYS 102, PHYS 151, or PHYS 171. Students with AP or Transfer Credit for PHYS 92 or PHYS 94 who complete PHYS 102 will thereby surrender the AP or Transfer Credit."}
+{
+	"LEC": [
+		{
+			"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
+			"instructor": "Jay Kikkawa",
+			"id": "PHYS102001",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "102",
+				"sectionNumber": "001"
+			},
+			"fullfillRequirement": [
+				"College Quantitative Data Analysis Req.",
+				"Physical World Sector"
+			],
+			"preReq": [
+				"PHYS 101"
+			],
+			"time": {
+				"start": 9,
+				"end": 10,
+				"day": "TR"
+			}
+		}
+	],
+	"REC": [],
+	"LAB": [
+		{
+			"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
+			"id": "PHYS102111",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "102",
+				"sectionNumber": "111"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
+			"id": "PHYS102112",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "102",
+				"sectionNumber": "112"
+			},
+			"time": {
+				"start": 15,
+				"end": 17,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
+			"id": "PHYS102113",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "102",
+				"sectionNumber": "113"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
+			"id": "PHYS102114",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "102",
+				"sectionNumber": "114"
+			},
+			"time": {
+				"start": 15,
+				"end": 17,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
+			"id": "PHYS102115",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "102",
+				"sectionNumber": "115"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "F"
+			}
+		}
+	],
+	"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
+	"courseDescription": "A continuation of PHYS 101 emphasizing an introduction to classical electricity and magnetism, relativity theory, optics, and the quantum theory of matter, requiring a background in calculus. Suggested for students in a pre-health program. Credit is awarded for only one of the following courses: PHYS 009, PHYS 102, PHYS 151, or PHYS 171. Students with AP or Transfer Credit for PHYS 92 or PHYS 94 who complete PHYS 102 will thereby surrender the AP or Transfer Credit."
+}
