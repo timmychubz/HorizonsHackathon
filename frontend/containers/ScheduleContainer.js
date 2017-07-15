@@ -9,18 +9,16 @@ import * as actions from '../actions/index';
 const ScheduleContainer = ({ schedule, addClass, deleteClass }) => {
     console.log('in ScheduleContainer schedule is', schedule);
     return (
-        <div>
-            <h3>Currently selected classes</h3>
-            <ul>
-                {
-                  schedule.map((section, index) => (
-                      <li key={"selectedClass" + index}>
-                          {section.info.department}-{section.info.courseNumber}-{section.info.sectionNumber}
-                          <button onClick={() => deleteClass(section)}>Delete this course</button>
-                      </li>
-                  ))
-                }
-            </ul>
+        <div className="selectedcourseblockcontainer">
+            {
+              schedule.map((section) => (
+                  section ?
+                  <div className="selectedcourseblock">
+                      <h1>{section.info.department} {section.info.courseNumber} {section.info.sectionNumber}</h1>
+                  </div> :
+                  <div className="emptyselectedcourseblock"></div>
+              ))
+            }
         </div>
     );
 };
