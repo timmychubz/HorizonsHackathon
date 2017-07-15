@@ -25,8 +25,7 @@ const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, d
                 {
                   classSearch.map((course) => {
                       const sectionHtml = course.LEC.map((section) => (
-                        <div
-                            className="coursesectionlistblock"
+                        <div className="coursesectionlistblock"
                             onMouseOver={() => highlightClass(section, course.courseDescription)}
                             onMouseOut={() => dehighlightClass(section)}
                             onClick={()=>addClass(section)}>
