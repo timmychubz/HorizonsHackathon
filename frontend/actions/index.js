@@ -6,28 +6,23 @@ import * as types from './types';
 
 
 const addClass = (classObj) => ({
-
     type: types.ADD_CLASS,
-    classObj,
-    time
+    classObj
 });
 
 const deleteClass = (classObj) => ({
     type: types.DELETE_CLASS,
-    classObj,
-    time
+    classObj
 });
 
 const highlightClass = (classObj) => ({
     type: types.HIGHLIGHT_CLASS,
-    classObj,
-    time
+    classObj
 });
 
 const dehighlightClass = (classObj) => ({
     type: types.DEHIGHLIGHT_CLASS,
-    classObj,
-    time
+    classObj
 });
 
 export { addClass, highlightClass, deleteClass, dehighlightClass };

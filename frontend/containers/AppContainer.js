@@ -3,11 +3,13 @@ import React from 'react';
 import { connect } from 'react-redux';
 import Title from '../components/Title';
 import CalendarContainer from './CalendarContainer';
+import ScheduleContainer from './ScheduleContainer';
 
 const AppContainer = ({ name }) => {
     return (
         <div>
             <Title name={name} />
+            <ScheduleContainer />
             <CalendarContainer />
         </div>
     );
