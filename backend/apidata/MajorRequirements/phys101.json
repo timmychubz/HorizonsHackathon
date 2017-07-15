@@ -24,67 +24,105 @@
 				"day": "MWF"
 			},
 			"LAB": [
-                {
-                    "course_id": "101",
-                    "section_id": "101",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "102",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "103",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "104",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "105",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "106",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "107",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "108",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "109",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "110",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "111",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "112",
-                    "subject": "PHYS"
-                }
-            ]
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101101",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "101"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101102",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "102"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101103",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "103"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101104",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "104"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101105",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "105"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101101",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "106"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101101",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "107"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				}
+        ]
 		},
 		{
 			"instructorRating" : 3.1,
@@ -109,79 +147,135 @@
 				"day": "MWF"
 			},
 			"LAB": [
-                {
-                    "course_id": "101",
-                    "section_id": "101",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "102",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "103",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "104",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "105",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "106",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "107",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "108",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "109",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "110",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "111",
-                    "subject": "PHYS"
-                },
-                {
-                    "course_id": "101",
-                    "section_id": "112",
-                    "subject": "PHYS"
-                }
-            ],
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101101",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "101"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101102",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "102"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101103",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "103"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101104",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "104"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101105",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "105"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101101",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "106"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				},
+				{
+					"courseName": "General Physics: Mechanics, Heat and Sound",
+					"id": "PHYS101101",
+					"info": {
+						"department": "PHYS",
+						"courseNumber": "101",
+						"sectionNumber": "107"
+					},
+					"time": {
+						"start": 13,
+						"end": 15,
+						"day": "M"
+					}
+				}
+        ],
 		"REC":
 				[
-							{
-									"course_id": "101",
-									"section_id": "201",
-									"subject": "PHYS"
+					{
+						"courseName": "General Physics: Mechanics, Heat and Sound",
+						"id": "PHYS101201",
+						"info": {
+							"department": "PHYS",
+							"courseNumber": "101",
+							"sectionNumber": "201"
+						},
+						"time": {
+							"start": 13,
+							"end": 15,
+							"day": "M"
+						}
+					},
+						{
+							"courseName": "General Physics: Mechanics, Heat and Sound",
+							"id": "PHYS101101",
+							"info": {
+								"department": "PHYS",
+								"courseNumber": "101",
+								"sectionNumber": "202"
 							},
-							{
-									"course_id": "101",
-									"section_id": "202",
-									"subject": "PHYS"
+							"time": {
+								"start": 13,
+								"end": 15,
+								"day": "M"
 							}
+						}
 					]
 		},
 		{
