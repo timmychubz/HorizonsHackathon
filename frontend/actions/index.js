@@ -17,12 +17,14 @@ const deleteClass = (classObj) => ({
 
 const highlightClass = (classObj, description) => ({
     type: types.HIGHLIGHT_CLASS,
-    classObj
+    classObj,
+    description
 });
 
-const dehighlightClass = (classObj) => ({
+const dehighlightClass = (classObj, description) => ({
     type: types.DEHIGHLIGHT_CLASS,
-    classObj
+    classObj,
+    description
 });
 
 export { addClass, highlightClass, deleteClass, dehighlightClass };

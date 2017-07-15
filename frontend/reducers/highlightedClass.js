@@ -2,11 +2,13 @@ import * as types from '../actions/types';
 
 const initialState = {};
 
-const highlightClass = (state = initialState, action) => {
+const highlightedClass = (state = initialState, action) => {
     switch(action.type) {
+        case types.HIGHLIGHT_CLASS:
+            return: 
         default:
             return state;
     }
 };
 
-export default highlightClass;
+export default highlightedClass;
