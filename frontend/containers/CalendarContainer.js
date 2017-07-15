@@ -20,11 +20,11 @@ const timeToIndex = (timeNum) => {
 // start and end are numbers in the format 8.0 or 8.3
 // we want to pass in classObj.time!!!
 
-const dateTextToArray = ({ day, start, end }) => {
+const dateTextToArray = ( day, start, end ) => {
     const arrayOfTimeBlocks = [];
     const startIndex = timeToIndex(start);
     const endIndex = timeToIndex(end);
-
+    console.log(day.split(''));
     day.split('').forEach((dayChar) => {
         for (var i = startIndex; i < endIndex; i++) {
             arrayOfTimeBlocks.push({
@@ -38,17 +38,30 @@ const dateTextToArray = ({ day, start, end }) => {
 };
 
 const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightClass, dehighlightClass }) => {
+    console.log(calendarSchedule);
     return (
         <div>
-            <ul>
+          <div className='calendarContainer'>
+            {
+                calendarSchedule.map((daySchedule) => (
+                    <div className='calendarColumn'>{daySchedule.day}
+                    {daySchedule.times.map((time) =>
+                     (<div>{time.time}</div>)
+                    )}</div>
+                )
+              )
+            }
+          </div>
+
+            <ul className='calendarBox'>
                 {
                     calendarSchedule.map((daySchedule) => (
-                        <li className='square'>
-                            <strong>{daySchedule.day} {"I'm here"}</strong>
+                        <li>
+                            <strong>{daySchedule.day} </strong>
                             <ul>
                                 {
                                     daySchedule.times.map((time) => (
-                                        <li>{time.time}, {time.chosen + ''}, {time.highlighted + ''}</li>
+                                        <li> {time.time}, {time.chosen + ''}, {time.highlighted + ''}</li>
                                     ))
                                 }
                             </ul>

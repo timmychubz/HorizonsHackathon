@@ -17,8 +17,7 @@ for (let i = 0; i < 5; i++) {
 }
 
 const calendarSchedule = (state = initialState, action) => {
-    const timeBlocks = action.classObj.time;
-    console.log(timeBlocks);
+    const timeBlocks = action.classObj ? action.classObj.time : [];
     const newState = state.slice();
 
     switch(action.type) {
