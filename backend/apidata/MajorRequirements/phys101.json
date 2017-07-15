@@ -3,7 +3,7 @@
 	"LEC": [
 		{
 			"instructorRating" : 2.4,
-			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"courseName": "General Physics: Mechanics",
 			"instructor": "Robert John Hollebeek",
 			"id": "PHYS101001",
 			"info": {

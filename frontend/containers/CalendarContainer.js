@@ -6,15 +6,16 @@ import * as actions from '../actions/index';
 const timeBoxInline = (time)=> {
   var color = 'white';
   if(time.highlighted) {
-    color = 'yellow'
+    color = '#FFB793'
   } else if (time.chosen) {
-    color = 'grey'
+    color = '#D8D8D8'
   }
   return ({
       "height": "18px",
       "flex": "1",
       "backgroundColor": color,
-      "borderTopStyle": time.time % 2 ? 'none' : 'solid'
+      "borderTopStyle": time.time % 2 ? 'none' : 'solid',
+      'borderWidth': '1px'
   })
 };
 

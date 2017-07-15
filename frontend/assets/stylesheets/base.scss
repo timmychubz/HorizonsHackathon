@@ -48,11 +48,12 @@ SearchContainer, ScheduleContainer {
 }
 
 .theHour {
-  flex:1;
+  flex: 1;
   margin-top: 10px;
-  height: 20px;
-  padding-left: 60%;
-  font-size: 15px;
+  height: 15px;
+  padding-left: 40%;
+    font-size: 15px;
+
 }
 // end of primitive calendar formatting
 
@@ -155,6 +156,7 @@ SearchContainer, ScheduleContainer {
     width: 430px;
     height: 400px;
     display: flex;
+    margin-top: -10%;
     flex-direction: column;
     padding: 15px;
 }
