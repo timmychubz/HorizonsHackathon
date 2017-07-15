@@ -43,10 +43,9 @@ const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightC
             <ul>
                 {
                     calendarSchedule.map((daySchedule) => (
-                        <li>
-                            <strong>{daySchedule.day}</strong>
+                        <li className='square'>
+                            <strong>{daySchedule.day} {"I'm here"}</strong>
                             <ul>
-
                                 {
                                     daySchedule.times.map((time) => (
                                         <li>{time.time}, {time.chosen + ''}, {time.highlighted + ''}</li>
