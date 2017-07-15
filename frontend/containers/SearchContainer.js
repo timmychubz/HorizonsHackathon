@@ -7,6 +7,14 @@ import * as actions from '../actions/index';
 // also where all added classes will be displayed
 
 const SearchContainer = ({ classSearch, genedSearch, electiveSearch, courseView, changeView, addClass, deleteClass, highlightClass, dehighlightClass }) => {
+    const views = {
+        classSearch,
+        genedSearch,
+        electiveSearch
+    };
+
+    let mainView = views[courseView.views[courseView.index]];
+
     return (
         <div className="genedrequirementscontainer">
             <div className="filtercontrols">
@@ -23,7 +31,7 @@ const SearchContainer = ({ classSearch, genedSearch, electiveSearch, courseView,
             </div>
             <div className="courselistdiv">
                 {
-                  classSearch.map((course) => {
+                  mainView.map((course) => {
                       const sectionHtml = course.LEC.map((section) => (
                         <div className="coursesectionlistblock"
                             onMouseOver={() => highlightClass(section, course.courseDescription)}
