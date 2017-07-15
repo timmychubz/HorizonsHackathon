@@ -13,7 +13,8 @@ const SearchContainer = ({ classSearch, genedSearch, electiveSearch, courseView,
         electiveSearch
     };
 
-    let mainView = views[courseView.views[courseView.index]];
+    const mainView = !!(views[courseView.views[courseView.index]][0]) ? views[courseView.views[courseView.index]] : [views[courseView.views[courseView.index]]];
+
 
     return (
         <div className="genedrequirementscontainer">
@@ -97,7 +98,7 @@ const mapDispatchToProps = (dispatch) => {
     return {
         addClass: (classObj) => dispatch(actions.addClass(classObj)),
         deleteClass: (classObj) => dispatch(actions.deleteClass(classObj)),
-        highlightClass: (classObj) => dispatch(actions.highlightClass(classObj)),
+        highlightClass: (classObj, description) => dispatch(actions.highlightClass(classObj, description)),
         dehighlightClass: (classObj) => dispatch(actions.dehighlightClass(classObj)),
         changeView: (index) => dispatch(actions.changeView(index))
     };

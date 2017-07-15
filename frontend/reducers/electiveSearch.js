@@ -1,13 +1,9 @@
 import * as types from '../actions/types';
 
-import MFR from '../../backend/apidata/genRequirements/MFR';
-import MQS from '../../backend/apidata/genRequirements/MQS';
-import MDO from '../../backend/apidata/genRequirements/MDO,MDB';
+import musc030 from '../../backend/apidata/MajorRequirements/musc030.json';
 // import gen1 from '../../backend/apidata/genRequirements/MC1.json';
 
-const initialState = MFR.Courses.concat(
-    MQS.Courses, MDO.Courses
-);
+const initialState = musc030;
 
 const classSearch = (state = initialState, action) => {
     switch(action.type) {

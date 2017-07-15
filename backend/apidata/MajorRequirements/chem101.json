@@ -2,7 +2,7 @@
 	"difficultyRating" : 2.6,
 	"LEC": [
 		{
-			"instructorRating" : 3.2,
+			"instructorRating" : 3.6,
 			"courseName": "General Chemistry I",
 			"instructor": "Susan R Phillips",
 			"id": "CHEM101001",
@@ -87,46 +87,28 @@
 			"REC": [
 				{
 					"courseName": "General Chemistry I",
-					"id": "CHEM101220",
+					"id": "CHEM101002",
 					"info": {
 						"department": "CHEM",
 						"courseNumber": "101",
-						"sectionNumber": "220"
-					},
-					"time": {
-						"start": 9,
-						"end": 10,
-						"day": "R"
-					}
-				},
-				{
-					"courseName": "General Chemistry I",
-					"id": "CHEM101221",
-					"info": {
-						"department": "CHEM",
-						"courseNumber": "101",
-						"sectionNumber": "221"
-					},
-					"time": {
-						"start": 15,
-						"end": 16,
-						"day": "R"
-					}
-				},
-				{
-					"courseName": "General Chemistry I",
-					"id": "CHEM101222",
-					"info": {
-						"department": "CHEM",
-						"courseNumber": "101",
-						"sectionNumber": "222"
+						"sectionNumber": "002"
 					},
 					"time": {
 						"start": 12,
 						"end": 13,
 						"day": "R"
 					}
-				}
+				},
+	      {
+          "course_id": "101",
+          "section_id": "231",
+          "subject": "CHEM"
+	      },
+	      {
+          "course_id": "101",
+          "section_id": "232",
+          "subject": "CHEM"
+      	}
 			]
 		},
 		{
@@ -262,5 +244,5 @@
 		}
 	],
 	"courseName": "General Chemistry I",
-	"courseDescription": "Basic concepts and principles of chemistry and their applications in chemistry and closely-related fields. The first term emphasizes the understanding of chemical reactions through atomic and molecular structure. This is a university level course, treating the material in sufficient depth so that students can solve chemical problems and can understand the principles involved in their solution. It includes an introduction to condensed matter. This course is suitable for majors or non-majors and is recommended to satisfy either major or preprofessional requirements for general chemistry. This course is presented for students with high school chemistry and calculus. Students with a lesser background than this should take Chemistry 001."
+	"courseDescription": "Basic concepts and principles of chemistry and their applications in chemistry and closely-related fields. The first term emphasizes the understanding of chemical reactions through atomic and molecular structure."
 }

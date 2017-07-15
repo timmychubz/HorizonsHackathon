@@ -1,28 +1,23 @@
 import * as types from '../actions/types';
 
-import MC1 from '../../backend/apidata/genRequirements/MC1.json';
-import MC2 from '../../backend/apidata/genRequirements/MC2.json';
-import MDA from '../../backend/apidata/genRequirements/MDA.json';
-import MDH from '../../backend/apidata/genRequirements/MDH.json';
-import MDL from '../../backend/apidata/genRequirements/MDL.json';
-// import MDP from '../../backend/apidata/genRequirements/MDP.json';
-import MWC from '../../backend/apidata/genRequirements/MWC.json';
+import bibb080 from '../../backend/apidata/MajorRequirements/bibb080.json';
+import engl072 from '../../backend/apidata/MajorRequirements/engl072.json';
+import musc030 from '../../backend/apidata/MajorRequirements/musc030.json';
 // import gen1 from '../../backend/apidata/genRequirements/MC1.json';
 
 
-const initialState = [];
+const initialState = bibb080;
 
 const classSearch = (state = initialState, action) => {
-    const newState = state.slice();
     switch(action.type) {
         default:
             return state;
         case types.CROSS_CULTURAL_ANALYSIS:
-            return MC1.Courses;
+            return bibb080;
         case types.CULTURAL_DIVERSITY_IN_THE_US:
-            return MC2.Courses;
+            return engl072;
         case types.HISTORY_AND_TRADITION:
-            return MDH.Courses;
+            return musc030;
     }
 };
 

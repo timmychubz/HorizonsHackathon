@@ -10,7 +10,7 @@ import engl072Classes from '../../backend/apidata/MajorRequirements/engl072.json
 
 // change this to empty array
 const initialState = [
-    biol101Classes, chem101Classes
+    biol101Classes, chem101Classes, phys101Classes
 ];
 
 const classSearch = (state = initialState, action) => {
