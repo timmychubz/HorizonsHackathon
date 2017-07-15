@@ -18,6 +18,7 @@ const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightC
               )
             }
           </div>
+        </div>
     );
 };
 
