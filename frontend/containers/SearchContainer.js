@@ -11,26 +11,20 @@ const SearchContainer = ({ classSearch, addClass, deleteClass }) => {
     return (
         <div>
             <h3>Search for classes</h3>
-            <ul>
+            <div>
                 {
-                  classSearch.map((course, index) => (
-                      <li key={"selectedClass" + index}>
-                          {course.LEC[0].info.department}-{course.LEC[0].info.courseNumber}
-                          <ul>
-                              {
-                                  course.LEC.map((section, ind) => (
-                                      <li>
-                                          Section <strong>{section.info.sectionNumber}</strong>, Instructor: {section.instructor} <br />
-                                          {section.time.day} {section.time.start} - {section.time.end}
-                                          <button onClick={() => addClass(section)}>Add this class</button>
-                                      </li>
-                                  ))
-                              }
-                          </ul>
-                      </li>
+                  classSearch.map((course) => (
+                      <div className="courselistblock">
+                          <h1>{course.LEC[0].info.department}{course.LEC[0].info.courseNumber}</h1>
+                          <div>
+                              <div>
+                                <p>Difficulty: {course.difficultyRating}</p>
+                              </div>
+                          </div>
+                      </div>
                   ))
                 }
-            </ul>
+            </div>
         </div>
     );
 };

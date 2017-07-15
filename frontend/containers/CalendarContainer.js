@@ -7,10 +7,10 @@ const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightC
     console.log(calendarSchedule);
     return (
         <div>
-          <div className='calendarContainer'>
+          <div className="calendarContainer">
             {
                 calendarSchedule.map((daySchedule) => (
-                    <div className='calendarColumn'>{daySchedule.day}
+                    <div className="calendarColumn">{daySchedule.day}
                     {daySchedule.times.map((time) =>
                      (<div>{time.time} , {time.chosen + ''}, {time.highlighted + ''}</div>)
                     )}</div>
@@ -18,7 +18,6 @@ const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightC
               )
             }
           </div>
-      </div>
     );
 };
 
