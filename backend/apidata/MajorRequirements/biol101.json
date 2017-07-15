@@ -19,7 +19,205 @@
 				"start": 13,
 				"end": 14,
 				"day": "MWF"
-			}
+			},
+      "LAB": [
+        {
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101101",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "101"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "M"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101102",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "102"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "M"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101103",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "103"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "M"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101104",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "104"
+    			},
+    			"time": {
+    				"start": 9,
+    				"end": 12,
+    				"day": "T"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101105",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "105"
+    			},
+    			"time": {
+    				"start": 9,
+    				"end": 12,
+    				"day": "T"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101106",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "106"
+    			},
+    			"time": {
+    				"start": 13,
+    				"end": 16,
+    				"day": "T"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101107",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "107"
+    			},
+    			"time": {
+    				"start": 13,
+    				"end": 16,
+    				"day": "T"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101108",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "108"
+    			},
+    			"time": {
+    				"start": 9,
+    				"end": 12,
+    				"day": "W"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101109",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "109"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "W"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101110",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "110"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "W"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101111",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "111"
+    			},
+    			"time": {
+    				"start": 9,
+    				"end": 12,
+    				"day": "R"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101112",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "112"
+    			},
+    			"time": {
+    				"start": 13,
+    				"end": 16,
+    				"day": "R"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101113",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "113"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "F"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101114",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "114"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "F"
+    			}
+    		}
+      ]
 		},
 		{
       "instructorRating" : 2.9,
@@ -39,234 +237,37 @@
 				"start": 17,
 				"end": 19,
 				"day": "F"
-			}
-		}
-	],
-	"REC": [],
-	"LAB": [
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101101",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "101"
 			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101102",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "102"
-			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101103",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "103"
-			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101104",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "104"
-			},
-			"time": {
-				"start": 9,
-				"end": 12,
-				"day": "T"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101105",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "105"
-			},
-			"time": {
-				"start": 9,
-				"end": 12,
-				"day": "T"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101106",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "106"
-			},
-			"time": {
-				"start": 13,
-				"end": 16,
-				"day": "T"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101107",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "107"
-			},
-			"time": {
-				"start": 13,
-				"end": 16,
-				"day": "T"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101108",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "108"
-			},
-			"time": {
-				"start": 9,
-				"end": 12,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101109",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "109"
-			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101110",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "110"
-			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101111",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "111"
-			},
-			"time": {
-				"start": 9,
-				"end": 12,
-				"day": "R"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101112",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "112"
-			},
-			"time": {
-				"start": 13,
-				"end": 16,
-				"day": "R"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101113",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "113"
-			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "F"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101114",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "114"
-			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "F"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101602",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "602"
-			},
-			"time": {
-				"start": 14,
-				"end": 17,
-				"day": "F"
-			}
-		},
-		{
-			"courseName": "Introduction to Biology A",
-			"id": "BIOL101603",
-			"info": {
-				"department": "BIOL",
-				"courseNumber": "101",
-				"sectionNumber": "603"
-			},
-			"time": {
-				"start": 9,
-				"end": 12,
-				"day": "S"
-			}
+      "LAB": [
+        {
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101602",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "602"
+    			},
+    			"time": {
+    				"start": 14,
+    				"end": 17,
+    				"day": "F"
+    			}
+    		},
+    		{
+    			"courseName": "Introduction to Biology A",
+    			"id": "BIOL101603",
+    			"info": {
+    				"department": "BIOL",
+    				"courseNumber": "101",
+    				"sectionNumber": "603"
+    			},
+    			"time": {
+    				"start": 9,
+    				"end": 12,
+    				"day": "S"
+    			}
+    		}
+      ]
 		}
 	],
 	"courseName": "Introduction to Biology A",
