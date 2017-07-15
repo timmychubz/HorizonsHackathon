@@ -26,7 +26,7 @@ const SearchContainer = ({ classSearch, genedSearch, electiveSearch, courseView,
                     <div className="coursedifficulty"><p>Difficulty</p></div>
                 </div>
                 <div className="fulfillsrequirementdropdown">
-                    <div>Writing Requirement</div>
+                    <div>Select</div>
                     <div className="arrow-down"></div>
                 </div>
             </div>
