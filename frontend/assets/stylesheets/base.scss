@@ -513,6 +513,16 @@ SearchContainer, ScheduleContainer {
     padding: 35px;
 }
 
+.navBar {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Whitney SSm A'
+}
+
 .studentprofilediv {
     flex: 2.5;
     width: 400px;

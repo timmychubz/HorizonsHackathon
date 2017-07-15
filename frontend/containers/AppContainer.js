@@ -9,7 +9,10 @@ import CourseCardContainer from './CourseCardContainer';
 const AppContainer = () => {
     return (
       <div>
-        <div style={{'width':'100%', 'height': '100px'}}>Schedulizer</div>
+        <div className='navBar'
+          style={{'width':'100%', 'height': '100px'}}><span style={{'alignSelf':'center'}}>Schedulizer</span>
+          <span style={{'alignSelf':'flexEnd', 'fontSize':'15px'}}>Hello Timmy!!<span style={{'textDecoration':'underline'}}>{'                '} Logout</span></span>
+        </div>
         <div className="dashboarddiv">
           <div className="studentprofilediv">
                   <p className="selectmajorandminor">Select Major/Minor</p>
