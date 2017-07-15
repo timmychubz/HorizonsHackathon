@@ -15,7 +15,7 @@ const deleteClass = (classObj) => ({
     classObj
 });
 
-const highlightClass = (classObj) => ({
+const highlightClass = (classObj, description) => ({
     type: types.HIGHLIGHT_CLASS,
     classObj
 });
