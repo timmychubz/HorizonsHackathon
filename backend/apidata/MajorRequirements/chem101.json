@@ -2,7 +2,7 @@
 	"difficultyRating" : 2.6,
 	"LEC": [
 		{
-			"instructorRating" : 3.6,
+			"instructorRating" : 3.2,
 			"courseName": "General Chemistry I",
 			"instructor": "Susan R Phillips",
 			"id": "CHEM101001",
@@ -86,20 +86,47 @@
 			},
 			"REC": [
 				{
-          "course_id": "101",
-          "section_id": "230",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "231",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "232",
-          "subject": "CHEM"
-      	}
+					"courseName": "General Chemistry I",
+					"id": "CHEM101220",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "220"
+					},
+					"time": {
+						"start": 9,
+						"end": 10,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101221",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "221"
+					},
+					"time": {
+						"start": 15,
+						"end": 16,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101222",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "222"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
 			]
 		},
 		{
