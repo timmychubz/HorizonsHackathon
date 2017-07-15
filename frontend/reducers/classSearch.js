@@ -9,7 +9,7 @@ import engl072Classes from '../../backend/apidata/MajorRequirements/engl072.json
 // import gen1 from '../../backend/apidata/genRequirements/MC1.json';
 
 const initialState = [
-    biol101Classes, math114Classes
+    biol101Classes, chem101Classes
 ];
 
 const classSearch = (state = initialState, action) => {
