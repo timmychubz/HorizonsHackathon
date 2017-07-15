@@ -3,11 +3,11 @@
 	"LEC": [
 		{
       "instructorRating" : 2.4,
-			"courseName": "Brain Changes Through Tragedy and Triumph",
+			"courseName": "French Culture and Wine",
 			"instructor": "Jacqueline Cunningham",
-			"id": "BIBB080301",
+			"id": "FOOD080301",
 			"info": {
-				"department": "BIBB",
+				"department": "FOOD",
 				"courseNumber": "080",
 				"sectionNumber": "301"
 			},
@@ -20,6 +20,6 @@
 			}
 		}
 	],
-	"courseName": "Brain Changes Through Tragedy and Triumph",
-	"courseDescription": "There are currently major advances in understanding how the brain works. Whereas sixty years ago, it was believed that the mature brain was a fixed structure, new research shows not only that the brain can change, but also that it changes continuously throughtout life. An overview of neuroplasticity,as it refers to change in the nervous syste, will be presented in this course. Major topics will regard: an introduction to the brain anatomy necessary in explanations of neuroplastic changes that occur in response to the nerve injury and brain damage; a consideration of addiction and pain as conditions involving maladaptive forms of neuroplasticity; and an overview of lifelong brain changes illustrating neuroplasticity as a lifelong process."
+	"courseName": "French Culture and Wine",
+	"courseDescription": "The art and beauty of tasting wine."
 }
