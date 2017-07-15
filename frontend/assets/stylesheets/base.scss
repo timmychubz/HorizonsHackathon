@@ -135,3 +135,150 @@ div {
     justify-content: center;
     margin-bottom: 20px;
 }
+
+/* Selected Course Block: */
+.coursecard {
+    background: #FFFFFF;
+    border: 1px solid #979797;
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 5px;
+    width: 430px;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+
+.coursecard .courseidandtime {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.coursecard .courseidandtime {
+    display: flex;
+    flex: 1.5;
+}
+
+
+.coursecard .courseid {
+    display: flex;
+}
+
+.coursecard .courseid p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-right: 10px;
+    font-weight: 400;
+}
+
+
+.coursecard .coursetime {
+    display: flex;
+}
+
+.coursecard .coursetime p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+
+.coursecard .coursename {
+    display: flex;
+    flex: 1;
+    margin-top: 20px;
+}
+
+.coursecard .coursename h1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.coursecard .professor {
+    display: flex;
+    flex: 1;
+}
+
+.coursecard .professor p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-left: 10px;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.coursecard .descriptiontitle {
+    display: flex;
+    flex: 1;
+    margin-top: 10px;
+}
+
+.coursecard .descriptiontitle p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.coursecard .description {
+    display: flex;
+    flex: 3;
+}
+
+.coursecard .description p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 300;
+}
+.coursecard .recitation {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    margin-top: 30px;
+}
+
+.coursecard .recitation p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+.coursecard .recitationsection {
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.coursecard .recitationsection p {
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #000000;
+    letter-spacing: -0.28px;
+    margin-right: 10px;
+    font-weight: 300;
+    margin-top: 8px;
+}
