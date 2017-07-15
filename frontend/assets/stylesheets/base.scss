@@ -3,16 +3,47 @@ h1 {
   font-weight: 200;
 }
 
-
+// start of primitive calendar formatting
+div {
+  font-family: 'Lato', sans-serif;
+}
 .calendarContainer {
   display: flex;
-  flex:1 ;
+  flex: 1 ;
   flex-direction: row
 }
 
 .calendarColumn {
+  display: flex;
+  flex-direction: column;
   flex: 1
 }
+
+.showHour {
+  margin-top: 1%;
+  color: grey;
+}
+
+.timeChosen {
+  background-color: grey;
+
+}
+
+.timeNonChosen {
+  background-color : #FFFFFF;
+}
+
+.time {
+  height: 20px;
+  flex: 1
+}
+
+.theHour {
+  flex:1;
+  height: 40px;
+  padding-left: 60%
+}
+// end of primitive calendar formatting
 
 .courselistblock {
     background: #FA6D6D;
