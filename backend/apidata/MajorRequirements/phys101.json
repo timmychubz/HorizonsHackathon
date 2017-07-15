@@ -1,7 +1,8 @@
 {
-	"difficultyRating" : 3.3,
+	"difficultyRating" : 2.8,
 	"LEC": [
 		{
+			"instructorRating" : 2.4,
 			"courseName": "General Physics: Mechanics, Heat and Sound",
 			"instructor": "Robert John Hollebeek",
 			"id": "PHYS101001",
@@ -24,6 +25,7 @@
 			}
 		},
 		{
+			"instructorRating" : 3.1,
 			"courseName": "General Physics: Mechanics, Heat and Sound",
 			"instructor": "Paul A Heiney",
 			"id": "PHYS101002",
@@ -46,6 +48,7 @@
 			}
 		},
 		{
+			"instructorRating" : 2.7,
 			"courseName": "General Physics: Mechanics, Heat and Sound",
 			"instructor": "Jessie F. Taylor",
 			"id": "PHYS101601",

@@ -4,17 +4,30 @@ import { connect } from 'react-redux';
 import * as actions from '../actions/index';
 
 const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightClass, dehighlightClass }) => {
+    console.log(calendarSchedule);
     return (
         <div>
-            <ul>
+          <div className='calendarContainer'>
+            {
+                calendarSchedule.map((daySchedule) => (
+                    <div className='calendarColumn'>{daySchedule.day}
+                    {daySchedule.times.map((time) =>
+                     (<div>{time.time}</div>)
+                    )}</div>
+                )
+              )
+            }
+          </div>
+
+            <ul className='calendarBox'>
                 {
                     calendarSchedule.map((daySchedule) => (
-                        <li className='square'>
-                            <strong>{daySchedule.day} {"I'm here"}</strong>
+                        <li>
+                            <strong>{daySchedule.day} </strong>
                             <ul>
                                 {
                                     daySchedule.times.map((time) => (
-                                        <li>{time.time}, {time.chosen + ''}, {time.highlighted + ''}</li>
+                                        <li> {time.time}, {time.chosen + ''}, {time.highlighted + ''}</li>
                                     ))
                                 }
                             </ul>

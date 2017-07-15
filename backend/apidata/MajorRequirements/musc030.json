@@ -1,7 +1,8 @@
 {
-	"difficultyRating" : 3.8,
+	"difficultyRating" : 2.1,
 	"LEC": [
 		{
+			"instructorRating" : 2.4,
 			"courseName": "1000 Years of Musical Listening",
 			"instructor": "Mary Channen Caldwell",
 			"id": "MUSC030001",
@@ -22,6 +23,7 @@
 			}
 		},
 		{
+			"instructorRating" : 3.2,
 			"courseName": "1000 Years of Musical Listening",
 			"instructor": "Maria Theresa Norma Ryan",
 			"id": "MUSC030002",
@@ -42,6 +44,7 @@
 			}
 		},
 		{
+			"instructorRating" : 3.8,
 			"courseName": "1000 Years of Musical Listening",
 			"instructor": "Siel Agugliaro",
 			"id": "MUSC030003",
@@ -61,6 +64,7 @@
 			}
 		},
 		{
+			"instructorRating" : 1.9,
 			"courseName": "1000 Years of Musical Listening",
 			"instructor": "Lloyd J Frank",
 			"id": "MUSC030601",

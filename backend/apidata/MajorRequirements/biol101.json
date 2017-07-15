@@ -1,7 +1,8 @@
 {
-  "difficultyRating" : 3.8,
+  "difficultyRating" : 2.8,
 	"LEC": [
 		{
+      "instructorRating" : 3.2,
 			"courseName": "Introduction to Biology A",
 			"instructor": "R. Scott Poethig",
 			"id": "BIOL101001",
@@ -21,6 +22,7 @@
 			}
 		},
 		{
+      "instructorRating" : 2.9,
 			"courseName": "Introduction to Biology A",
 			"instructor": "John E. Zimmerman",
 			"id": "BIOL101601",

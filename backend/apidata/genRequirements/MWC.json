@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 3.4,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.9,
+      			"courseName": "Craft of Prose",
+      			"instructor": "Amy E Brown",
+      			"id": "WRIT002301",
+      			"info": {
+      				"department": "WRIT",
+      				"courseNumber": "002",
+      				"sectionNumber": "301"
+      			},
+      			"fullfillRequirement": ["Writing Requirement"],
+      			"preReq": [],
+      			"time": {
+      				"start": 9,
+      				"end": 10.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Craft of Prose",
+    	"courseDescription": "No syllabus has been posted for this course."
+    },
+
+    {
+      "difficultyRating" : 3.4,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.8,
+      			"courseName": "Writing Sem Global Engl",
+      			"instructor": "Shaleigh Kwok",
+      			"id": "WRIT011301",
+      			"info": {
+      				"department": "WRIT",
+      				"courseNumber": "011",
+      				"sectionNumber": "301"
+      			},
+      			"fullfillRequirement": ["Writing Requirement"],
+      			"preReq": [],
+      			"time": {
+      				"start": 9,
+      				"end": 10.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Writing Sem Global Engl",
+    	"courseDescription": "No syllabus has been posted for this course."
+    },
+
+    {
+      "difficultyRating" : 2.9,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.2,
+      			"courseName": "Writing Seminar in Econ",
+      			"instructor": "Carol R Kalin",
+      			"id": "WRIT037303",
+      			"info": {
+      				"department": "WRIT",
+      				"courseNumber": "037",
+      				"sectionNumber": "303"
+      			},
+      			"fullfillRequirement": ["Writing Requirement"],
+      			"preReq": [],
+      			"time": {
+      				"start": 12,
+      				"end": 13.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Writing Seminar in Econ",
+    	"courseDescription": "No syllabus has been posted for this course."
+    }
+  ]
+}
