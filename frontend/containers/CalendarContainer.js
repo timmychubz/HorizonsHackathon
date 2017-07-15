@@ -16,14 +16,16 @@ const timeToIndex = (timeNum) => {
 };
 
 // converts MWF, 8.3, 9.3 to a usable array [{}]
-// meetingDays is a string in the format 'MTWRF'
-// startTime and endTime are numbers in the format 8.0 or 8.3
-const dateTextToArray = (meetingDays, startTime, endTime) => {
-    const arrayOfTimeBlocks = [];
-    const startIndex = timeToIndex(startTime);
-    const endIndex = timeToIndex(endTime);
+// day is a string in the format 'MTWRF'
+// start and end are numbers in the format 8.0 or 8.3
+// we want to pass in classObj.time!!!
 
-    meetingDays.split('').forEach((dayChar) => {
+const dateTextToArray = ({ day, start, end }) => {
+    const arrayOfTimeBlocks = [];
+    const startIndex = timeToIndex(start);
+    const endIndex = timeToIndex(end);
+
+    day.split('').forEach((dayChar) => {
         for (var i = startIndex; i < endIndex; i++) {
             arrayOfTimeBlocks.push({
                 dayIndex: dayToIndex[dayChar],
@@ -79,10 +81,10 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        addClass: (classObj, time) => dispatch(actions.addClass(classObj, time)),
-        deleteClass: (classObj, time) => dispatch(actions.deleteClass(classObj, time)),
-        highlightClass: (classObj, time) => dispatch(actions.highlightClass(classObj, time)),
-        dehighlightClass: (classObj, time) => dispatch(actions.dehighlightClass(classObj, time))
+        addClass: (classObj) => dispatch(actions.addClass(classObj)),
+        deleteClass: (classObj) => dispatch(actions.deleteClass(classObj)),
+        highlightClass: (classObj) => dispatch(actions.highlightClass(classObj)),
+        dehighlightClass: (classObj) => dispatch(actions.dehighlightClass(classObj))
     };
 };
 

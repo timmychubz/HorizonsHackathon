@@ -6,7 +6,7 @@ import * as actions from '../actions/index';
 // where deleteClass will actually be implemented
 // also where all added classes will be displayed
 
-const ScheduleContainer = ({ schedule, addClass, deleteClass }) => {
+const SearchContainer = ({ schedule, addClass, deleteClass }) => {
     return (
         <div>
             <h3>Currently selected classes</h3>
@@ -23,7 +23,7 @@ const ScheduleContainer = ({ schedule, addClass, deleteClass }) => {
     );
 };
 
-ScheduleContainer.propTypes = {
+SearchContainer.propTypes = {
     schedule: PropTypes.array,
     addClass: PropTypes.func,
     deleteClass: PropTypes.func
@@ -45,4 +45,4 @@ const mapDispatchToProps = (dispatch) => {
 export default connect(
     mapStateToProps,
     mapDispatchToProps
-)(ScheduleContainer);
+)(SearchContainer);
