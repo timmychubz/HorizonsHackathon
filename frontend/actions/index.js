@@ -11,9 +11,10 @@ const chemMajor = () => ({
     type: types.CHEM_MAJOR
 });
 
-const addClass = (classObj) => ({
+const addClass = (classObj, description) => ({
     type: types.ADD_CLASS,
-    classObj
+    classObj,
+    description
 });
 
 const deleteClass = (classObj) => ({
