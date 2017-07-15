@@ -107,8 +107,8 @@ SearchContainer, ScheduleContainer {
     background: #D02E2E;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
     border-radius: 5px;
-    width: 225px;
-    height: 50px;
+    width: 200px;
+    height: 45px;
     display: flex;
     padding-left: 10px;
     align-items: center;
@@ -132,8 +132,8 @@ SearchContainer, ScheduleContainer {
     background: #F3F3F3;
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
     border-radius: 5px;
-    width: 225px;
-    height: 50px;
+    width: 200px;
+    height: 45px;
     display: flex;
     padding-left: 10px;
     align-items: center;
@@ -477,25 +477,25 @@ SearchContainer, ScheduleContainer {
 
 .circle0 {
     width: 10px;
-	height: 10px;
+	  height: 10px;
     max-height: 10px;
     border: 1px solid #979797;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+	  -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     margin-left: 5px;
     margin-right: 5px;
 }
 
 .circle1 {
     width: 10px;
-	height: 10px;
+	  height: 10px;
     max-height: 10px;
     background: #797979;
     border: 1px solid #979797;
-	-moz-border-radius: 5px;
-	-webkit-border-radius: 5px;
-	border-radius: 5px;
+  	-moz-border-radius: 5px;
+  	-webkit-border-radius: 5px;
+	  border-radius: 5px;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -503,10 +503,18 @@ SearchContainer, ScheduleContainer {
 .dashboarddiv {
     display: flex;
     background-color: #60ABAE;
+    padding: 35px;
 }
 
 .studentprofilediv {
-    flex: 1;
+    flex: 2.5;
+    width: 600px;
+    height: 833px;
+    background: #FFFFFF;
+    box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+    border-radius: 5px;
+    margin-left: 100px;
+    margin-right: 70px;
 }
 
 .schedulerdiv {
@@ -521,11 +529,12 @@ SearchContainer, ScheduleContainer {
 }
 
 .searchcontainerdiv {
-    flex: 6;
+    flex: 7;
 }
 
 .schedulecontainerdiv {
     flex: 3;
+    margin-right: 60px;
 }
 
 .coursedetaildiv {
