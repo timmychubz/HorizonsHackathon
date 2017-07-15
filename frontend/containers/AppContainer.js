@@ -11,7 +11,7 @@ const AppContainer = ({ name }) => {
     return (
       <div>
         <Title name={name} />
-        <div style={{'display':'flex'}}>
+        <div style={{'display':'flex', 'height': 50%}}>
           <SearchContainer style={{'flex':'1', 'overflow':'auto'}}/>
           <ScheduleContainer style={{'flex':'.8'}}/>
         </div>
