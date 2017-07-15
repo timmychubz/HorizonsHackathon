@@ -1,6 +1,6 @@
 import * as types from '../actions/types';
 
-import biol101Classes from '../../backend/apidata/biol101.json';
+import biol101Classes from '../../backend/apidata/MajorRequirements/biol101.json';
 
 
 const initialState = [
