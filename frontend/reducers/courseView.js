@@ -1,7 +1,7 @@
 import * as types from '../actions/types';
 
 const initialState = [
-    index: 0;
+    index: 0,
     views: [
         'classSearch',
         'genedSearch',
