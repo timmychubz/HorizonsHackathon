@@ -3,10 +3,11 @@ import { combineReducers } from 'redux';
 
 import schedule from './schedule';
 import calendarSchedule from './calendarSchedule';
+import classSearch from './classSearch';
 import name from './name';
-// import * as types from '../actions/types';
 
 const rootReducer = combineReducers({
+    classSearch,
     calendarSchedule,
     schedule,
     name,
