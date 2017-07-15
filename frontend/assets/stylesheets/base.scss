@@ -12,9 +12,14 @@ SearchContainer, ScheduleContainer {
   display: inline-block;
 }
 .calendarContainer {
+  background: #FFFFFF;
+  box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
+  border-radius: 5px;
+  height: 350px;
   display: flex;
   flex: 1 ;
-  flex-direction: row
+  flex-direction: row;
+
 }
 
 .calendarColumn {
@@ -24,7 +29,7 @@ SearchContainer, ScheduleContainer {
 }
 
 .showHour {
-  margin-top: 1%;
+  margin-top: 10px;
   color: grey;
 }
 
@@ -39,14 +44,15 @@ SearchContainer, ScheduleContainer {
 
 .time {
   height: 20px;
-  flex: 1
+  flex: 1;
 }
 
 .theHour {
   flex:1;
-  height: 40px;
+  margin-top: 10px;
+  height: 20px;
   padding-left: 60%;
-  font-size: 15px
+  font-size: 15px;
 }
 // end of primitive calendar formatting
 
@@ -144,7 +150,6 @@ SearchContainer, ScheduleContainer {
 /* Selected Course Block: */
 .coursecard {
     background: #FFFFFF;
-    border: 1px solid #979797;
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
     border-radius: 5px;
     width: 430px;
@@ -526,6 +531,7 @@ SearchContainer, ScheduleContainer {
 .courseselectordiv {
     flex: 1;
     display: flex;
+    margin-bottom: 97px;
 }
 
 .searchcontainerdiv {
@@ -548,4 +554,5 @@ SearchContainer, ScheduleContainer {
 
 .calendarcontainerdiv {
     flex: 1;
+    margin-right: 57px;
 }
