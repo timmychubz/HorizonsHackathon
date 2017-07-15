@@ -93,7 +93,7 @@ const calendarSchedule = (state = initialState, action) => {
                     newState[timeBlock.dayIndex].times[timeBlock.timeIndex],
                     newState[timeBlock.dayIndex].times[timeBlock.timeIndex].chosen ?
                         {highlighted: false} :
-                        {highlighted: null}
+                        {highlighted: false}
                 );
             });
             return newState;

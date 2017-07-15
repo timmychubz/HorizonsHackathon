@@ -6,7 +6,7 @@ import * as actions from '../actions/index';
 // where deleteClass will actually be implemented
 // also where all added classes will be displayed
 
-const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, dehighlightClass }) => {
+const SearchContainer = ({ classSearch, genedSearch, electiveSearch, courseView, changeView, addClass, deleteClass, highlightClass, dehighlightClass }) => {
     return (
         <div className="genedrequirementscontainer">
             <div className="filtercontrols">
@@ -25,11 +25,10 @@ const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, d
                 {
                   classSearch.map((course) => {
                       const sectionHtml = course.LEC.map((section) => (
-                        <div
-                            className="coursesectionlistblock"
+                        <div className="coursesectionlistblock"
                             onMouseOver={() => highlightClass(section, course.courseDescription)}
                             onMouseOut={() => dehighlightClass(section)}
-                            onClick={()=>addClass(section)}>
+                            onClick={()=> addClass(section)}>
                             <h1>Section {section.info.sectionNumber} {section.instructor}</h1>
                             <div>
                               <div><p>Instructor: {section.instructorRating}</p></div>
@@ -40,16 +39,25 @@ const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, d
                         <div className="courselistblockdiv">
                           <div className="courselistblock">
                               <h1>{course.LEC[0].info.department}{course.LEC[0].info.courseNumber}: {course.courseName}</h1>
-                              <div>
                                 <div>
                                   <p>Difficulty: {course.difficultyRating}</p>
                                 </div>
-                              </div>
                           </div>
                           {sectionHtml}
                         </div>
                       );
                   })
+                }
+            </div>
+            <div className="scrollviewdiv">
+                {
+                    courseView.views.map((view, index) => (
+                        courseView.index === index ?
+                            <div className="circle1"></div> :
+                            <div
+                                className="circle0"
+                                onClick={() => changeView(index)}></div>
+                    ))
                 }
             </div>
         </div>
@@ -58,25 +66,32 @@ const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, d
 
 SearchContainer.propTypes = {
     classSearch: PropTypes.array,
+    genedSearch: PropTypes.array,
+    electiveSearch: PropTypes.array,
+    courseView: PropTypes.object,
     addClass: PropTypes.func,
     deleteClass: PropTypes.func,
     dehighlightClass: PropTypes.func,
-    highlightClass: PropTypes.func
+    highlightClass: PropTypes.func,
+    changeView: PropTypes.func
 };
 
 const mapStateToProps = (state) => {
     return {
-        classSearch: state.classSearch
+        classSearch: state.classSearch,
+        genedSearch: state.genedSearch,
+        electiveSearch: state.electiveSearch,
+        courseView: state.courseView
     };
 };
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        addClass: (classObj, time) => dispatch(actions.addClass(classObj, time)),
-        deleteClass: (classObj, time) => dispatch(actions.deleteClass(classObj, time)),
-        highlightClass: (classObj, time) => dispatch(actions.highlightClass(classObj, time)),
-        dehighlightClass: (classObj) => dispatch(actions.dehighlightClass(classObj))
-
+        addClass: (classObj) => dispatch(actions.addClass(classObj)),
+        deleteClass: (classObj) => dispatch(actions.deleteClass(classObj)),
+        highlightClass: (classObj, description) => dispatch(actions.highlightClass(classObj, description)),
+        dehighlightClass: (classObj) => dispatch(actions.dehighlightClass(classObj)),
+        changeView: (index) => dispatch(actions.changeView(index))
     };
 };
 

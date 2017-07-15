@@ -32,4 +32,9 @@ const dehighlightClass = (classObj) => ({
     classObj
 });
 
-export { addClass, highlightClass, deleteClass, dehighlightClass };
+const changeView = (index) => ({
+    type: types.CHANGE_VIEW,
+    index
+});
+
+export { addClass, highlightClass, deleteClass, dehighlightClass, changeView };

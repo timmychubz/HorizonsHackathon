@@ -9,15 +9,25 @@ import CourseCardContainer from './CourseCardContainer';
 const AppContainer = () => {
     return (
       <div className="dashboarddiv">
-        <div className="studentprofilediv"></div>
+        <div className="studentprofilediv">
+          <div></div>
+        </div>
         <div className="schedulerdiv">
           <div className="courseselectordiv">
-            <SearchContainer />
-            <ScheduleContainer />
+            <div className="searchcontainerdiv">
+              <SearchContainer />
+            </div>
+            <div className="schedulecontainerdiv">
+              <ScheduleContainer />
+            </div>
           </div>
           <div className="coursedetaildiv">
-            <CourseCardContainer />
-            <CalendarContainer />
+            <div className="coursecardcontainerdiv">
+              <CourseCardContainer />
+            </div>
+            <div className="calendarcontainerdiv">
+              <CalendarContainer />
+            </div>
           </div>
         </div>
       </div>
