@@ -7,6 +7,7 @@ import * as actions from '../actions/index';
 // also where all added classes will be displayed
 
 const ScheduleContainer = ({ schedule, addClass, deleteClass }) => {
+    console.log('schedule', schedule);
     return (
         <div className="selectedcourseblockcontainer">
             {

@@ -25,11 +25,10 @@ const SearchContainer = ({ classSearch, genedSearch, electiveSearch, courseView,
                 {
                   classSearch.map((course) => {
                       const sectionHtml = course.LEC.map((section) => (
-                        <div
-                            className="coursesectionlistblock"
+                        <div className="coursesectionlistblock"
                             onMouseOver={() => highlightClass(section, course.courseDescription)}
                             onMouseOut={() => dehighlightClass(section)}
-                            onClick={()=>addClass(section)}>
+                            onClick={()=> addClass(section)}>
                             <h1>Section {section.info.sectionNumber} {section.instructor}</h1>
                             <div>
                               <div><p>Instructor: {section.instructorRating}</p></div>
@@ -88,9 +87,9 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        addClass: (classObj, time) => dispatch(actions.addClass(classObj, time)),
-        deleteClass: (classObj, time) => dispatch(actions.deleteClass(classObj, time)),
-        highlightClass: (classObj, time) => dispatch(actions.highlightClass(classObj, time)),
+        addClass: (classObj) => dispatch(actions.addClass(classObj)),
+        deleteClass: (classObj) => dispatch(actions.deleteClass(classObj)),
+        highlightClass: (classObj) => dispatch(actions.highlightClass(classObj)),
         dehighlightClass: (classObj) => dispatch(actions.dehighlightClass(classObj)),
         changeView: (index) => dispatch(actions.changeView(index))
     };
