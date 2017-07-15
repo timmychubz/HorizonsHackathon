@@ -1,23 +1,24 @@
 import PropTypes from 'prop-types';
 import React from 'react';
 import { connect } from 'react-redux';
-import Title from '../components/Title';
 import CalendarContainer from './CalendarContainer';
 import ScheduleContainer from './ScheduleContainer';
 import SearchContainer from './SearchContainer';
 import CourseCardContainer from './CourseCardContainer';
 
-const AppContainer = ({ name }) => {
+const AppContainer = () => {
     return (
-      <div>
-        <Title name={name} />
-        <div style={{'display':'flex'}}>
-          <SearchContainer style={{'flex':'1', 'overflow':'auto'}}/>
-          <ScheduleContainer style={{'flex':'.8'}}/>
-        </div>
-        <div style={{'display':'flex'}}>
-          <CourseCardContainer style={{'flex':'1'}}/>
-          <CalendarContainer style={{'flex':'1.5'}}/>
+      <div className="dashboarddiv">
+        <div></div>
+        <div>
+          <div>
+            <SearchContainer />
+            <ScheduleContainer />
+          </div>
+          <div >
+            <CourseCardContainer />
+            <CalendarContainer />
+          </div>
         </div>
       </div>
     );

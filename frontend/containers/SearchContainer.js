@@ -8,35 +8,48 @@ import * as actions from '../actions/index';
 
 const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, dehighlightClass }) => {
     return (
-        <div>
-            <h3>Search for classes</h3>
-            <div>
+        <div className="genedrequirementscontainer">
+            <div className="filtercontrols">
+                <div className="instructortoggle">
+                    <div className="instructor"><p>Instructor</p></div>
+                </div>
+                <div className="difficultytoggle">
+                    <div className="coursedifficulty"><p>Difficulty</p></div>
+                </div>
+                <div className="fulfillsrequirementdropdown">
+                    <div>Writing Requirement</div>
+                    <div className="arrow-down"></div>
+                </div>
+            </div>
+            <div className="courselistdiv">
                 {
-                  classSearch.map((course) => (
-                    <div>
-                      <div className="courselistblock">
-                        <h1>{course.LEC[0].info.department}{course.LEC[0].info.courseNumber}: {course.courseName}</h1>
-                        <div>
-                          <div>
-                            <p>Difficulty: {course.difficultyRating}</p>
-                          </div>
+                  classSearch.map((course) => {
+                      const sectionHtml = course.LEC.map((section) => (
+                        <div
+                            className="coursesectionlistblock"
+                            onMouseOver={() => highlightClass(section, course.courseDescription)}
+                            onMouseOut={() => dehighlightClass(section)}
+                            onClick={()=>addClass(section)}>
+                            <h1>Section {section.info.sectionNumber} {section.instructor}</h1>
+                            <div>
+                              <div><p>Instructor: {section.instructorRating}</p></div>
+                            </div>
                         </div>
-                      </div>
-                      <div>
-                          <h3><strong>Sections</strong></h3>
-                          {
-                                course.LEC.map((section) => (
-                                    <div onMouseOver={() => highlightClass(section, course.courseDescription)}
-                                      onMouseOut={() => dehighlightClass(section)}
-                                      onClick={()=>addClass(section)}><p><strong>{section.info.sectionNumber}</strong>, Instructor: {section.instructor}</p> <br />
-                                    <p>{section.time.day} {section.time.start} - {section.time.end}</p>
-                                  </div>
-                                ))
-                          }
-                      </div>
-                    </div>
-
-                  ))
+                      ));
+                      return (
+                        <div className="courselistblockdiv">
+                          <div className="courselistblock">
+                              <h1>{course.LEC[0].info.department}{course.LEC[0].info.courseNumber}: {course.courseName}</h1>
+                              <div>
+                                <div>
+                                  <p>Difficulty: {course.difficultyRating}</p>
+                                </div>
+                              </div>
+                          </div>
+                          {sectionHtml}
+                        </div>
+                      );
+                  })
                 }
             </div>
         </div>
