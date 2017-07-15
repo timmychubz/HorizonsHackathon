@@ -1,0 +1,315 @@
+{
+	"difficultyRating" : 3.3,
+	"LEC": [
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"instructor": "Robert John Hollebeek",
+			"id": "PHYS101001",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "001"
+			},
+			"fullfillRequirement": [
+				"College Quantitative Data Analysis Req.",
+				"Physical World Sector"
+			],
+			"preReq": [
+				"Entrance credit in algebra and trigonometry, and a background in calculus."
+			],
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "MWF"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"instructor": "Paul A Heiney",
+			"id": "PHYS101002",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "002"
+			},
+			"fullfillRequirement": [
+				"College Quantitative Data Analysis Req.",
+				"Physical World Sector"
+			],
+			"preReq": [
+				"Entrance credit in algebra and trigonometry, and a background in calculus."
+			],
+			"time": {
+				"start": 10,
+				"end": 11,
+				"day": "MWF"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"instructor": "Jessie F. Taylor",
+			"id": "PHYS101601",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "601"
+			},
+			"fullfillRequirement": [
+				"College Quantitative Data Analysis Req.",
+				"Physical World Sector"
+			],
+			"preReq": [
+				"Entrance credit in algebra and trigonometry, and a background in calculus."
+			],
+			"time": {
+				"start": 18,
+				"end": 20,
+				"day": "MW"
+			}
+		}
+	],
+	"REC": [
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101201",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "201"
+			},
+			"time": {
+				"start": 14,
+				"end": 15,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101202",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "202"
+			},
+			"time": {
+				"start": 13,
+				"end": 14,
+				"day": "M"
+			}
+		}
+	],
+	"LAB": [
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101101",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "101"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101102",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "102"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "W"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101103",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "103"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101104",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "104"
+			},
+			"time": {
+				"start": 18,
+				"end": 20,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101105",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "105"
+			},
+			"time": {
+				"start": 15,
+				"end": 17,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101106",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "106"
+			},
+			"time": {
+				"start": 15,
+				"end": 17,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101107",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "107"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "R"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101108",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "108"
+			},
+			"time": {
+				"start": 13,
+				"end": 15,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101109",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "109"
+			},
+			"time": {
+				"start": 18,
+				"end": 20,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101110",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "110"
+			},
+			"time": {
+				"start": 15,
+				"end": 17,
+				"day": "R"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101111",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "111"
+			},
+			"time": {
+				"start": 18,
+				"end": 20,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101112",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "112"
+			},
+			"time": {
+				"start": 15,
+				"end": 17,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101602",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "602"
+			},
+			"time": {
+				"start": 16,
+				"end": 18,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101603",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "603"
+			},
+			"time": {
+				"start": 20,
+				"end": 22,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "General Physics: Mechanics, Heat and Sound",
+			"id": "PHYS101604",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "101",
+				"sectionNumber": "604"
+			},
+			"time": {
+				"start": 16,
+				"end": 18,
+				"day": "W"
+			}
+		}
+	],
+	"courseName": "General Physics: Mechanics, Heat and Sound",
+	"courseDescription": "An introduction to the classical laws of motion requiring a background in calculus. Suggested for students in a pre-health program. Credit is awarded for only one of the following courses: PHYS 008, PHYS 101, PHYS 150, or PHYS 170. Students with AP or Transfer Credit for PHYS 91 or PHYS 93 who complete PHYS 101 will thereby surrender the AP or Transfer Credit."
+}
