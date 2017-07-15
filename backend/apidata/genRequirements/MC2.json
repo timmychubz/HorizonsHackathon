@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 1.8,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.3,
+      			"courseName": "Race and Ethnic Relations",
+      			"instructor": "Tukufu Zuberi",
+      			"id": "AFRC006401",
+      			"info": {
+      				"department": "AFRC",
+      				"courseNumber": "006",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Cultural Diversity in the US"],
+      			"preReq": [],
+      			"time": {
+      				"start": 12,
+      				"end": 13.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Race and Ethnic Relations",
+    	"courseDescription": "The course will focus on race and ethnicity in the United States. We begin with a brief history of racial categorization and immigration to the U.S. The course continues by examining a number of topics including racial and ethnic identity, interracial and interethnic friendships and marriage, racial attitudes, mass media images, residential segregation, educational stratification, and labor market outcomes. The course will include discussions of African Americans, Whites, Hispanics, and Asian Americans and Multiracials."
+    },
+
+    {
+      "difficultyRating" : 3.1,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.8,
+      			"courseName": "Classic American Constitutional Law",
+      			"instructor": "Rogers M Smith",
+      			"id": "AFRC269401",
+      			"info": {
+      				"department": "AFRC",
+      				"courseNumber": "269",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Cultural Diversity in the US"],
+      			"preReq": [],
+      			"time": {
+      				"start": 15,
+      				"end": 16,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Classic American Constitutional Law",
+    	"courseDescription": "This course explores the creation and transformations of the American constitutional system's structures and goals from the nation's founding through the period of Progressive reforms, the rise of the Jim Crow system, and the Spanish American War. Issues include the division of powers between state and national governments, and the branches of the federal government; economic powers of private actors and government regulators; the authority of governments to enforce or transform racial and gender hierarchies; and the extent of religious and expressive freedoms and rights of persons accused of crimes. We will pay special attention to the changing role of the Supreme Court and its decisions in interpreting and shaping American constitutionalism, and we will also read legislative and executive constitutional arguments, party platforms, and other influential statements of American constitutional thought."
+    },
+
+    {
+      "difficultyRating" : 3.7,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.2,
+      			"courseName": "Sinners, Sex and Slaves: Race and Sex in Early America",
+      			"instructor": "Kathleen M. Brown",
+      			"id": "GSWS345401",
+      			"info": {
+      				"department": "GSWS",
+      				"courseNumber": "345",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Cultural Diversity in the US"],
+      			"preReq": [],
+      			"time": {
+      				"start": 12,
+      				"end": 13,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "The Sinners, Sex and Slaves: Race and Sex in Early America",
+    	"courseDescription": "This course explores the lost worlds of sinners, witches, sexual offenders, rebellious slaves, and Native American prophets from the seventeenth to nineteenth centuries. Using the life stories of unusual individuals from the past, we try to make sense of their contentious relationships with their societies. By following the careers of the trouble-makers, the criminals, and the rebels, we also learn about the foundations of social order and the impulse to reform that rocked American society during the nineteenth century."
+    }
+  ]
+}

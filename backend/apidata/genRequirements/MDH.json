@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 2.2,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.1,
+      			"courseName": "Ancient Greece",
+      			"instructor": "Jeremy Mcinerney",
+      			"id": "ANCH026401",
+      			"info": {
+      				"department": "ANCH",
+      				"courseNumber": "026",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["History & Tradition Sector ", "Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 12,
+      				"end": 13,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Ancient Greece",
+    	"courseDescription": "The Greeks enjoy a special place in the construction of western culture and identity, and yet many of us have only the vaguest notion of what their culture was like. A few Greek myths at bedtime when we are kids, maybe a Greek tragedy like Sophokles' Oidipous when we are at school: these are often the only contact we have with the world of the ancient Mediterranean. The story of the Greeks, however, deserves a wider audience, because so much of what we esteem in our own culture derives from them: democracy, epic poetry, lyric poetry, tragedy, history writing, philosophy, aesthetic taste, all of these and many other features of cultural life enter the West from Greece. The oracle of Apollo at Delphi had inscribed over the temple, "Know Thyself." For us, that also means knowing the Greeks. We will cover the period from the Late Bronze Age, c. 1500 BC, down to the time of Alexander the Great, concentrating on the two hundred year interval from 600-400 BC."
+    },
+
+    {
+      "difficultyRating" : 3.6,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.2,
+      			"courseName": "Introduction to Korean Civilization",
+      			"instructor": "Eugene Y. Park",
+      			"id": "EALC003401",
+      			"info": {
+      				"department": "EALC",
+      				"courseNumber": "003",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["History & Tradition Sector ", "Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 15,
+      				"end": 16,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Introduction to Korean Civilization",
+    	"courseDescription": "This gateway course surveys the history of Korea from early times to the present. We will study the establishment of various sociopolitical orders and their characteristics alongside major cultural developments. Covered topics include: state formation and dissolution; the role of ideology and how it changes; religious beliefs and values; agriculture, commerce, and industry; changing family relations; responses to Western imperialism; and Korea's increasing presence in the modern world as well as its future prospects. Students will also be introduced to various interpretive approaches in the historiography."
+    },
+
+    {
+      "difficultyRating" : 1.9,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.0,
+      			"courseName": "Africa Since 1800",
+      			"instructor": "Lee V Cassanelli",
+      			"id": "AFRC076401",
+      			"info": {
+      				"department": "AFRC",
+      				"courseNumber": "076",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["History & Tradition Sector ", "Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 12,
+      				"end": 13,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Africa Since 1800",
+    	"courseDescription": "Survey of major themes, events, and personalities in African history from the early nineteenth century through the 1960s. Topics include abolition of the slave trade, European imperialism, impact of colonial rule, African resistance, religious and cultural movements, rise of naturalism and pan-Africanism, issues of ethnicity, and tribalisms in modern Africa."
+    }
+  ]
+}

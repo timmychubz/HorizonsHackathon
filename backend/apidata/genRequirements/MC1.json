@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 1.8,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.1,
+      			"courseName": "Colonial Latin America",
+      			"instructor": "Ann C. Farnsworth-Alvear",
+      			"id": "AFRC070401",
+      			"info": {
+      				"department": "AFRC",
+      				"courseNumber": "070",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["History & Tradition Sector", "Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 9,
+      				"end": 10.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Colonial Latin America",
+    	"courseDescription": "This course provides an introduction to the broad literature on Latin America s rich colonial history. We will begin by tracing some of the early origins of - and points of contact between - the Indian, Iberian, and African men and women who formed the basis of colonial society. As the course progresses, we will explore the variety of ways in which colonial subjects lived, worked, ate, worshipped and socialized. Lectures and reading assignments will draw upon a variety of sources, including court cases, artistic renderings, city maps and street plans, travel accounts of visits to the region, and the material, cultural, and intellectual products made possible by the wealth and dynamism of the seventeenth and eighteenth centuries. The course will conclude with an analysis of the Age of Revolutions, a period of dramatic upheaval that remains at the center of lively scholarly debates. By the end of the semester, students will be able to engage the key questions driving these debates, the most important of which, perhaps, is: what is Latin America s colonial legacy?"
+    },
+
+    {
+      "difficultyRating" : 2.1,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.8,
+      			"courseName": "World Musics and Cultures",
+      			"instructor": "Shelley Marissa Sha Zhang",
+      			"id": "AFST050402",
+      			"info": {
+      				"department": "AFST",
+      				"courseNumber": "050",
+      				"sectionNumber": "402"
+      			},
+      			"fullfillRequirement": ["Arts & Letters Sector", "Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 10,
+      				"end": 11,
+      				"day": "MWF"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "World Musics and Cultures",
+    	"courseDescription": "Draws on repertories of various societies from Asia, Africa, Europe, and the Americas to examine relations between aesthetic productions and social processes. We investigate musical sounds, cultural logics informing those sounds, and social strategies of performance. Topics may include indigenous music theories, music and social organization, symbolic expressions and musical meaning, gender, religion, and social change."
+    },
+
+    {
+      "difficultyRating" : 3.7,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.2,
+      			"courseName": "The Vikings",
+      			"instructor": "Philip T. Gressman",
+      			"id": "GRMN145401",
+      			"info": {
+      				"department": "GRMN",
+      				"courseNumber": "145",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13.3,
+      				"end": 15,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "The Vikings",
+    	"courseDescription": "The Vikings were the terror of Europe from the late eight to the eleventh century. Norwegians, Danes and Swedes left their homeland of trade, raid and pillage, leaving survivors praying 'Oh Lord, deliver us from the fury of the Norsemen! While commonly associated with violent barbarism, the Norse were also farmers, craftsmen, and merchants."
+    }
+  ]
+}

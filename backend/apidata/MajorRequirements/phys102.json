@@ -1,7 +1,8 @@
 {
-  "difficultyRating" : 3.4,
+  "difficultyRating" : 3.0,
 	"LEC": [
 		{
+      "instructorRating" : 2.5,
 			"courseName": "General Physics: Electromagnetism, Optics, and Modern Physics",
 			"instructor": "Jay Kikkawa",
 			"id": "PHYS102001",

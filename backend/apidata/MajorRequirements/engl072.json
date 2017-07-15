@@ -1,7 +1,8 @@
 {
-	"difficultyRating" : 2.2,
+	"difficultyRating" : 3.2,
 	"LEC": [
 		{
+			"instructorRating" : 3.6,
 			"courseName": "Asian American Literature",
 			"instructor": "Josephine Nock-Hee Park",
 			"id": "ENGL072401",

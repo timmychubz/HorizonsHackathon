@@ -1,7 +1,8 @@
 {
-  "difficultyRating" : 3.1,
+  "difficultyRating" : 1.9,
 	"LEC": [
 		{
+      "instructorRating" : 3.5,
 			"courseName": "Energy, Oil, and Global Warming",
 			"instructor": "Alison M. Sweeney",
 			"id": "PHYS016001",

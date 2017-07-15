@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 1.9,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.9,
+      			"courseName": "Survey of the Universe",
+      			"instructor": "Gary M. Bernstein",
+      			"id": "ASTR001003",
+      			"info": {
+      				"department": "ASTR",
+      				"courseNumber": "001",
+      				"sectionNumber": "003"
+      			},
+      			"fullfillRequirement": ["College Quantitative Data Analysis Req.", "Physical World Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13.3,
+      				"end": 15,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Survey of the Universe",
+    	"courseDescription": "A general survey, designed for the non-major, of the facts and theories of the astronomical universe, from solar system, to stars, to galaxies and cosmology. Topics include planets, satellites, small objects in the solar system, and extraterrestrial life; stars, their evolution, and their final state as white dwarfs, neutron stars, or black holes; galaxies, quasars, large structures, background radiation, and big bang cosmology. Elementary algebra and geometry will be used. This course is not recommended for physical-science majors or engineering students. Engineering students receive no credit for this course. Fulfills quantitative data analysis requirement."
+    },
+
+    {
+      "difficultyRating" : 2.2,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.8,
+      			"courseName": "Econometrics",
+      			"instructor": "Francis X Diebold",
+      			"id": "ECON104001",
+      			"info": {
+      				"department": "ECON",
+      				"courseNumber": "104",
+      				"sectionNumber": "001"
+      			},
+      			"fullfillRequirement": ["College Quantitative Data Analysis Req."],
+      			"preReq": [],
+      			"time": {
+      				"start": 15,
+      				"end": 16.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Econometrics",
+    	"courseDescription": "	This course is designed to introduce students to econometric techniques and their applications in economic analysis and decision-making. The main objective of the course is to train the student in (i) handling economic data; (ii) quantitative analyses of economic models with probabilistic tools; (iii) econometric techniques, their application as well as their statistical and practical interpretation; (iv) implementing these techniques on a computer. Estimation and inference procedures are formally analyzed for simple econometric models and illustrated by empirical case studies using real-life data. The course covers linear regression models, simultaneous-equations models, discrete choice models and univariate time series models. Estimation and Inference is conducted using least squares and likelihood based techniques. Students are required to perform several econometric analyses of their own."
+    },
+
+    {
+      "difficultyRating" : 1.9,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.2,
+      			"courseName": "Health of Populations",
+      			"instructor": "Hans-Peter Kohler",
+      			"id": "SOCI111401",
+      			"info": {
+      				"department": "SOCI",
+      				"courseNumber": "111",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["College Quantitative Data Analysis Req."],
+      			"preReq": [],
+      			"time": {
+      				"start": 11,
+      				"end": 12,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Health of Populations",
+    	"courseDescription": "This course is designed to introduce students to the quantitative study of factors that influence the health of populations. Topics to be addressed include methods for characterizing levels of health in populations, comparative and historical perspectives on population health, health disparities, health policy issues and the effectiveness of interventions for enhancing the health of populations. These topics will be addressed both for developed and developing world populations. The course will focus on specific areas of health and some of the major issues and conclusions pertaining to those domains. Areas singled out for attention include chronic diseases and their major risk factors, such as smoking, physical activity, dietary factors and obesity. Throughout the course, the focus will be on determining the quality of evidence for health policy and understanding the manner in which it was generated."
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 	"difficultyRating" : 3.2,
 	"LEC": [
 		{
+			"instructorRating" : 2.4,
 			"courseName": "Calculus, Part II",
 			"instructor": "James Haglund",
 			"id": "MATH114001",
@@ -23,6 +24,7 @@
 			}
 		},
 		{
+			"instructorRating" : 2.9,
 			"courseName": "Calculus, Part II",
 			"instructor": "Ron Donagi",
 			"id": "MATH114002",
@@ -44,6 +46,7 @@
 			}
 		},
 		{
+			"instructorRating" : 3.1,
 			"courseName": "Calculus, Part II",
 			"instructor": "Justin Reid Hilburn",
 			"id": "MATH114003",
@@ -65,6 +68,7 @@
 			}
 		},
 		{
+			"instructorRating" : 2.8,
 			"courseName": "Calculus, Part II",
 			"instructor": "",
 			"id": "MATH114004",
