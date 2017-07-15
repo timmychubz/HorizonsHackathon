@@ -39,17 +39,20 @@ const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, d
                         <div className="courselistblockdiv">
                           <div className="courselistblock">
                               <h1>{course.LEC[0].info.department}{course.LEC[0].info.courseNumber}: {course.courseName}</h1>
-                              <div>
                                 <div>
                                   <p>Difficulty: {course.difficultyRating}</p>
                                 </div>
-                              </div>
                           </div>
                           {sectionHtml}
                         </div>
                       );
                   })
                 }
+            </div>
+            <div className="scrollviewdiv">
+              <div className="circle0"></div>
+              <div className="circle1"></div>
+              <div className="circle0"></div>
             </div>
         </div>
     );
