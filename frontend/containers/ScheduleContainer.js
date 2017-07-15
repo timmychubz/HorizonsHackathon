@@ -7,14 +7,16 @@ import * as actions from '../actions/index';
 // also where all added classes will be displayed
 
 const ScheduleContainer = ({ schedule, addClass, deleteClass }) => {
+    console.log('in ScheduleContainer schedule is', schedule);
     return (
         <div>
             <h3>Currently selected classes</h3>
             <ul>
                 {
-                  schedule.forEach((course, index) => (
+                  schedule.map((section, index) => (
                       <li key={"selectedClass" + index}>
-                          {course.info.department}-{course.info.courseNumber}-{course.info.sectionNumber}
+                          {section.info.department}-{section.info.courseNumber}-{section.info.sectionNumber}
+                          <button onClick={() => deleteClass(section)}>Delete this course</button>
                       </li>
                   ))
                 }
