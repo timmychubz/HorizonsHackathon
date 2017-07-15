@@ -3,12 +3,21 @@ import React from 'react';
 import { connect } from 'react-redux';
 import * as actions from '../actions/index';
 
-const timeBoxInline = (time)=> ({
-    "height": "18px",
-    "flex": "1",
-    "backgroundColor": time.chosen ? 'grey' : 'white',
-    "borderTopStyle": time.time % 2 ? 'none' : 'solid'
-});
+const timeBoxInline = (time)=> {
+  var color = 'white';
+  if(time.highlighted) {
+    color = 'yellow'
+  } else if (time.chosen) {
+    color = 'grey'
+  }
+  return ({
+      "height": "18px",
+      "flex": "1",
+      "backgroundColor": color,
+      "borderTopStyle": time.time % 2 ? 'none' : 'solid'
+  })
+};
+
 
 const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightClass, dehighlightClass }) => {
     console.log(calendarSchedule);
@@ -20,7 +29,7 @@ const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightC
               <div>{initialHour.map((hour)=> (<div className="theHour">{hour}</div>))}</div>
             </div>
             { calendarSchedule.map((daySchedule) => (
-                    <div className="calendarColumn">{daySchedule.day}
+                    <div className="calendarColumn"><span style={{'marginBottom':'5px'}}>{daySchedule.day}</span>
                     {daySchedule.times.map((time) =>
                     (<div style={timeBoxInline(time)}></div>)
                     )}</div>

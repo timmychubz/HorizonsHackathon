@@ -11,6 +11,7 @@ const dateNumToString = (dateNum) => {
     return hour + ':' + minute + ' ' + suffix;
 };
 
+// Actually the courseCard
 const ScheduleContainer = ({ highlightedClass }) => {
     return highlightedClass ?
       (
