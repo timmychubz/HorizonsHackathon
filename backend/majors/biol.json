@@ -1,0 +1,15 @@
+{
+  "mainTrack": {
+    "intro": [
+      "BIOL101",
+      "BIOL102"
+    ],
+    "intermediate": [
+      "BIOL205",
+      "BIOL221",
+      "BIOL215",
+      "BIOL230"
+    ],
+    "advanced": []
+  }
+}

@@ -12,7 +12,7 @@ const ScheduleContainer = ({ schedule, addClass, deleteClass }) => {
             {
               schedule.map((section) => (
                   section ?
-                  <div className="selectedcourseblock">
+                  <div className="selectedcourseblock" onClick={()=>deleteClass(section)}>
                       <h1>{section.info.department} {section.info.courseNumber} {section.info.sectionNumber}</h1>
                   </div> :
                   <div className="emptyselectedcourseblock"></div>
@@ -36,8 +36,8 @@ const mapStateToProps = (state) => {
 
 const mapDispatchToProps = (dispatch) => {
     return {
-        addClass: (classObj, time) => dispatch(actions.addClass(classObj, time)),
-        deleteClass: (classObj, time) => dispatch(actions.deleteClass(classObj, time))
+        addClass: (classObj) => dispatch(actions.addClass(classObj)),
+        deleteClass: (classObj) => dispatch(actions.deleteClass(classObj))
     };
 };
 
