@@ -89,7 +89,7 @@ const mapDispatchToProps = (dispatch) => {
     return {
         addClass: (classObj) => dispatch(actions.addClass(classObj)),
         deleteClass: (classObj) => dispatch(actions.deleteClass(classObj)),
-        highlightClass: (classObj) => dispatch(actions.highlightClass(classObj)),
+        highlightClass: (classObj, description) => dispatch(actions.highlightClass(classObj, description)),
         dehighlightClass: (classObj) => dispatch(actions.dehighlightClass(classObj)),
         changeView: (index) => dispatch(actions.changeView(index))
     };

@@ -86,20 +86,47 @@
 			},
 			"REC": [
 				{
-          "course_id": "101",
-          "section_id": "230",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "231",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "232",
-          "subject": "CHEM"
-      	}
+					"courseName": "General Chemistry I",
+					"id": "CHEM101220",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "220"
+					},
+					"time": {
+						"start": 9,
+						"end": 10,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101221",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "221"
+					},
+					"time": {
+						"start": 15,
+						"end": 16,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101222",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "222"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
 			]
 		},
 		{
@@ -123,20 +150,47 @@
 			},
 			"REC": [
 				{
-          "course_id": "101",
-          "section_id": "240",
-          "subject": "CHEM"
-        },
-        {
-          "course_id": "101",
-          "section_id": "241",
-          "subject": "CHEM"
-        },
-        {
-          "course_id": "101",
-          "section_id": "242",
-          "subject": "CHEM"
-      	}
+					"courseName": "General Chemistry I",
+					"id": "CHEM101220",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "220"
+					},
+					"time": {
+						"start": 9,
+						"end": 10,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101221",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "221"
+					},
+					"time": {
+						"start": 15,
+						"end": 16,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101222",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "222"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
 			]
 		},
 		{
@@ -160,20 +214,47 @@
 			},
 			"REC": [
 				{
-          "course_id": "101",
-          "section_id": "250",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "251",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "252",
-          "subject": "CHEM"
-      	}
+					"courseName": "General Chemistry I",
+					"id": "CHEM101220",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "220"
+					},
+					"time": {
+						"start": 9,
+						"end": 10,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101221",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "221"
+					},
+					"time": {
+						"start": 15,
+						"end": 16,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101222",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "222"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
 			]
 		},
 		{
@@ -197,20 +278,47 @@
 			},
 			"REC": [
 				{
-          "course_id": "101",
-          "section_id": "260",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "261",
-          "subject": "CHEM"
-	      },
-	      {
-          "course_id": "101",
-          "section_id": "262",
-          "subject": "CHEM"
-      	}
+					"courseName": "General Chemistry I",
+					"id": "CHEM101220",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "220"
+					},
+					"time": {
+						"start": 9,
+						"end": 10,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101221",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "221"
+					},
+					"time": {
+						"start": 15,
+						"end": 16,
+						"day": "R"
+					}
+				},
+				{
+					"courseName": "General Chemistry I",
+					"id": "CHEM101222",
+					"info": {
+						"department": "CHEM",
+						"courseNumber": "101",
+						"sectionNumber": "222"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
 			]
 		},
 		{
