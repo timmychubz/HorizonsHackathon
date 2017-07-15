@@ -2,9 +2,16 @@ import * as types from '../actions/types';
 
 const initialState = [];
 
+const dayToWeekday = {
+  0: 'Monday',
+  1: 'Tuesday',
+  2: 'Wednesday',
+  3: 'Thursday',
+  4: 'Friday'
+}
 for (let i = 0; i < 5; i++) {
     initialState[i] = {
-        day: i,
+        day: dayToWeekday[i],
         times: [],
     };
     for (let j = 0; j < 26; j++) {

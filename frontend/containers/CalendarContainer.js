@@ -12,34 +12,13 @@ const CalendarContainer = ({ calendarSchedule, addClass, deleteClass, highlightC
                 calendarSchedule.map((daySchedule) => (
                     <div className='calendarColumn'>{daySchedule.day}
                     {daySchedule.times.map((time) =>
-                     (<div>{time.time}</div>)
+                     (<div>{time.time} , {time.chosen + ''}, {time.highlighted + ''}</div>)
                     )}</div>
                 )
               )
             }
           </div>
-
-            <ul className='calendarBox'>
-                {
-                    calendarSchedule.map((daySchedule) => (
-                        <li>
-                            <strong>{daySchedule.day} </strong>
-                            <ul>
-                                {
-                                    daySchedule.times.map((time) => (
-                                        <li> {time.time}, {time.chosen + ''}, {time.highlighted + ''}</li>
-                                    ))
-                                }
-                            </ul>
-                        </li>
-                    ))
-                }
-            </ul>
-            <button onClick={() => addClass('id', dateTextToArray('F', 8, 21))}>Add a class on F 8:00 AM - 9:00 PM</button>
-            <button onClick={() => deleteClass('id', dateTextToArray('F', 19, 21))}>Delete a class on F 7:00 PM - 9 PM </button>
-            <button onClick={() => highlightClass('id', dateTextToArray('F', 18, 20))}>Highlight a class on F 6:00-8:00 PM</button>
-            <button onClick={() => dehighlightClass('id', dateTextToArray('F', 18, 20))}>Dehighlight a class on MWF 6:00-7:00 PM</button>
-        </div>
+      </div>
     );
 };
 
