@@ -7,7 +7,6 @@ import * as actions from '../actions/index';
 // also where all added classes will be displayed
 
 const SearchContainer = ({ classSearch, addClass, deleteClass }) => {
-    console.log(classSearch.map((course, index) => (course.LEC[0].info.department)));
     return (
         <div>
             <h3>Search for classes</h3>
