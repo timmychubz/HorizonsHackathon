@@ -23,46 +23,118 @@
 				"day": "MWF"
 			},
 			"REC": [
-                {
-                    "course_id": "114",
-                    "section_id": "201",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "202",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "203",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "204",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "205",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "206",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "207",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "208",
-                    "subject": "MATH"
-                }
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114201",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "201"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114202",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "202"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114203",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "203"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114204",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "204"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114205",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "205"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114206",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "206"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114207",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "207"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114208",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "208"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
             ],
             "requirements": [
                 {
@@ -98,46 +170,118 @@
 				"day": "TR"
 			},
 			"REC":[
-                {
-                    "course_id": "114",
-                    "section_id": "211",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "212",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "213",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "214",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "215",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "216",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "217",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "218",
-                    "subject": "MATH"
-                }
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114211",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "211"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114212",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "212"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114213",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "213"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114214",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "214"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114215",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "215"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114216",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "216"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114217",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "217"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114218",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "218"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
             ]
 		},
 		{
@@ -162,56 +306,146 @@
 				"day": "TR"
 			},
 			"REC": [
-                {
-                    "course_id": "114",
-                    "section_id": "221",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "222",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "223",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "224",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "225",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "226",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "227",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "228",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "229",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "230",
-                    "subject": "MATH"
-                }
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114221",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "221"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114222",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "222"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114223",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "223"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114224",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "224"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114225",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "225"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114226",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "226"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114227",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "227"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114228",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "228"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114229",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "229"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114230",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "230"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
             ]
 		},
 		{
@@ -236,46 +470,90 @@
 				"day": "MWF"
 			},
 			"REC": [
-                {
-                    "course_id": "114",
-                    "section_id": "231",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "232",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "233",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "234",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "235",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "236",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "237",
-                    "subject": "MATH"
-                },
-                {
-                    "course_id": "114",
-                    "section_id": "238",
-                    "subject": "MATH"
-                }
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114231",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "231"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114232",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "232"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114233",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "233"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114234",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "234"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114235",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "235"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				},
+        {
+					"courseName": "Calculus, Part II",
+					"id": "MATH114236",
+					"info": {
+						"department": "MATH",
+						"courseNumber": "114",
+						"sectionNumber": "236"
+					},
+					"time": {
+						"start": 12,
+						"end": 13,
+						"day": "R"
+					}
+				}
             ]
 		}
 	],
