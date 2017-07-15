@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 3.0,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.1,
+      			"courseName": "Computational Data Exploration",
+      			"instructor": "Arvind Bhusnurmath",
+      			"id": "CIS105001",
+      			"info": {
+      				"department": "CIS",
+      				"courseNumber": "105",
+      				"sectionNumber": "001"
+      			},
+      			"fullfillRequirement": ["Formal Reasoning Course"],
+      			"preReq": [],
+      			"time": {
+      				"start": 10,
+      				"end": 11,
+      				"day": "MWF"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Computational Data Exploration",
+    	"courseDescription": "The primary goal of this course is to introduce computational methods of interacting with data. In this course, students will be introduced to the IPython programming environment. They will learn how to gather data, store it in appropriate data structures and then either write their own functions or use libraries to analyze and then display the salient information in that data. Data will be drawn from a variety of domains, including but not limited to travel, entertainment, politics, economics, biology etc."
+    },
+
+    {
+      "difficultyRating" : 3.5,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.8,
+      			"courseName": "Intro To Comp Prog",
+      			"instructor": "Adam D Mally",
+      			"id": "CIS110002",
+      			"info": {
+      				"department": "CIS",
+      				"courseNumber": "110",
+      				"sectionNumber": "002"
+      			},
+      			"fullfillRequirement": ["Formal Reasoning Course"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13,
+      				"end": 14,
+      				"day": "MWF"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Intro To Comp Prog",
+    	"courseDescription": "Introduction to Computer Programming is the first course in our series introducing students to computer science. In this class you will learn the fundamentals of computer programming in Java, with emphasis on applications in science and engineering. You will also learn about the broader field of computer science and algorithmic thinking, the fundamental approach that computer scientists take to solving problems."
+    },
+
+    {
+      "difficultyRating" : 2.2,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.2,
+      			"courseName": "Calculus I",
+      			"instructor": "Philip T. Gressman",
+      			"id": "MATH104005",
+      			"info": {
+      				"department": "MATH",
+      				"courseNumber": "104",
+      				"sectionNumber": "005"
+      			},
+      			"fullfillRequirement": ["Formal Reasoning Course"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13.3,
+      				"end": 15,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Calculus I",
+    	"courseDescription": "Brief review of High School calculus, applications of integrals, transcendental functions, methods of integration, infinite series, Taylor's theorem, and first order ordinary differential equations. Use of symbolic manipulation and graphics software in calculus."
+    }
+  ]
+}

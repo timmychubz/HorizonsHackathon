@@ -6,15 +6,27 @@ import * as actions from '../actions/index';
 // where deleteClass will actually be implemented
 // also where all added classes will be displayed
 
-const SearchContainer = ({ schedule, addClass, deleteClass }) => {
+const SearchContainer = ({ classSearch, addClass, deleteClass }) => {
+    console.log(classSearch.map((course, index) => (course.LEC[0].info.department)));
     return (
         <div>
-            <h3>Currently selected classes</h3>
+            <h3>Search for classes</h3>
             <ul>
                 {
-                  schedule.forEach((course, index) => (
+                  classSearch.map((course, index) => (
                       <li key={"selectedClass" + index}>
-                          {course.info.department}-{course.info.courseNumber}-{course.info.sectionNumber}
+                          {course.LEC[0].info.department}-{course.LEC[0].info.courseNumber}
+                          <ul>
+                              {
+                                  course.LEC.map((section, ind) => (
+                                      <li>
+                                          Section <strong>{section.info.sectionNumber}</strong>, Instructor: {section.instructor} <br />
+                                          {section.time.day} {section.time.start} - {section.time.end}
+                                          <button onClick={() => addClass(section)}>Add this class</button>
+                                      </li>
+                                  ))
+                              }
+                          </ul>
                       </li>
                   ))
                 }
@@ -24,14 +36,14 @@ const SearchContainer = ({ schedule, addClass, deleteClass }) => {
 };
 
 SearchContainer.propTypes = {
-    schedule: PropTypes.array,
+    classSearch: PropTypes.array,
     addClass: PropTypes.func,
     deleteClass: PropTypes.func
 };
 
 const mapStateToProps = (state) => {
     return {
-        schedule: state.schedule
+        classSearch: state.classSearch
     };
 };
 

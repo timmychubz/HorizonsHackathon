@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 3.4,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.4,
+      			"courseName": "Introduction To Africa",
+      			"instructor": "Mary Jennifer Hasty",
+      			"id": "AFRC190401",
+      			"info": {
+      				"department": "AFRC",
+      				"courseNumber": "190",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Society Sector", "Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 9,
+      				"end": 10.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Introduction To Africa",
+    	"courseDescription": "This course provides an introduction to the study of Africa in all its diversity and complexity. Our focus is cultural, geographical, and historical: we will seek to understand Africa s current place in the world political and economic order and learn about the various social and physical factors that have influenced the historical trajectory of the continent. We study the cultural formations and empires that emerged in Africa before European colonial invasion and then how colonialism reshaped those sociocultural forms. We ll learn about the unique kinds of kinship and religion in precolonial Africa and the changes brought about by the spread of Islam and Christianity. Finally, we ll take a close look at contemporary issues such as ethnic violence, migration, popular culture and poverty, and we'll debate the various approaches to understanding those issues."
+    },
+
+    {
+      "difficultyRating" : 2.1,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.8,
+      			"courseName": "Criminology",
+      			"instructor": "John M. Macdonald",
+      			"id": "CRIM100401",
+      			"info": {
+      				"department": "CRIM",
+      				"courseNumber": "100",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Society Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 9,
+      				"end": 10.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Criminology",
+    	"courseDescription": "This introductory course examines the multi-disciplinary science of law-making, law-breaking, and law-enforcing. It reviews theories and data predicting where, when, by whom and against whom crimes happen. It also addresses the prevention of different offense types by different kinds of offenders against different kinds of people. Police, courts, prisons, and other institutions are critically examined as both preventing and causing crime. This course meets the general distribution requirement."
+    },
+
+    {
+      "difficultyRating" : 2.9,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.2,
+      			"courseName": "The Social Contract",
+      			"instructor": "Kok-Chor Tan",
+      			"id": "PHIL008401",
+      			"info": {
+      				"department": "PHIL",
+      				"courseNumber": "008",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Society Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 9,
+      				"end": 10,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "The Social Contract",
+    	"courseDescription": "This is a critical survey of the history of western modern political philosophy, beginning from the Early Modern period and concluding with the 19th or 20th Century. Our study typically begins with Hobbes and ends with Mill or Rawls. The organizing theme of our investigation will be the idea of the Social Contract. We will examine different contract theories as well as criticisms and proposed alternatives to the contract idea, such as utilitarianism. Besides the above, examples of authors we will read are Locke, Rousseau, Hume, Mill and Marx."
+    }
+  ]
+}

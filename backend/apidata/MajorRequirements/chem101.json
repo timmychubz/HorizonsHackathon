@@ -1,7 +1,8 @@
 {
-	"difficultyRating" : 3.6,
+	"difficultyRating" : 2.6,
 	"LEC": [
 		{
+			"instructorRating" : 3.6,
 			"courseName": "General Chemistry I",
 			"instructor": "Susan R Phillips",
 			"id": "CHEM101001",
@@ -21,6 +22,7 @@
 			}
 		},
 		{
+			"instructorRating" : 3.2,
 			"courseName": "General Chemistry I",
 			"instructor": "Susan R Phillips",
 			"id": "CHEM101002",
@@ -40,6 +42,7 @@
 			}
 		},
 		{
+			"instructorRating" : 1.6,
 			"courseName": "General Chemistry I",
 			"instructor": "Andrew M. Rappe",
 			"id": "CHEM101003",
@@ -59,6 +62,7 @@
 			}
 		},
 		{
+			"instructorRating" : 2.1,
 			"courseName": "General Chemistry I",
 			"instructor": "Anthony J Pietrovito",
 			"id": "CHEM101004",
@@ -78,6 +82,7 @@
 			}
 		},
 		{
+			"instructorRating" : 3.6,
 			"courseName": "General Chemistry I",
 			"instructor": "Anthony J Pietrovito",
 			"id": "CHEM101005",
@@ -97,6 +102,7 @@
 			}
 		},
 		{
+			"instructorRating" : 2.5,
 			"courseName": "General Chemistry I",
 			"instructor": "Neil C. Tomson",
 			"id": "CHEM101006",

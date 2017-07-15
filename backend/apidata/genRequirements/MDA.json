@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 3.9,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.7,
+      			"courseName": "World Musics and Cultures",
+      			"instructor": "Timothy Rommen",
+      			"id": "AFRC050401",
+      			"info": {
+      				"department": "AFRC",
+      				"courseNumber": "050",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Arts & Letters Sector", "Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 10.3,
+      				"end": 12,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "World Musics and Cultures",
+    	"courseDescription": "This course examines how we as consumers in the 'Western' world engage with musical difference largely through the products of the global entertainment industry. We examine music cultures in contact in a variety of ways-- particularly as traditions in transformation. Students gain an understanding of traditional music as live, meaningful person-to-person music making, by examining the music in its original site of production, and then considering its transformation once it is removed, and recontextualized in a variety of ways. The purpose of the course is to enable students to become informed and critical consumers of 'World Music' by telling a series of stories about particular recordings made with, or using the music of, peoples culturally and geographically distant from the US. Students come to understand that not all music downloads containing music from unfamiliar places are the same, and that particular recordings may be embedded in intriguing and controversial narratives of production and consumption. At the very least, students should emerge from the class with a clear understanding that the production, distribution, and consumption of world music is rarely a neutral process."
+    },
+
+    {
+      "difficultyRating" : 1.8,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.2,
+      			"courseName": "World Film History to 1945",
+      			"instructor": "Alexander Benjamin Kauffman",
+      			"id": "COML123401",
+      			"info": {
+      				"department": "COML",
+      				"courseNumber": "123",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Arts & Letters Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 15,
+      				"end": 16.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "World Film History to 1945",
+    	"courseDescription": "This course surveys the history of world film from cinema s precursors to 1945. We will develop methods for analyzing film while examining the growth of film as an art, an industry, a technology, and a political instrument. Topics include the emergence of film technology and early film audiences, the rise of narrative film and birth of Hollywood, national film industries and movements, African-American independent film, the emergence of the genre film (the western, film noir, and romantic comedies), ethnographic and documentary film, animated films, censorship, the MPPDA and Hays Code, and the introduction of sound. We will conclude with the transformation of several film industries into propaganda tools during World War II (including the Nazi, Soviet, and US film industries). In addition to contemporary theories that investigate the development of cinema and visual culture during the first half of the 20th century, we will read key texts that contributed to the emergence of film theory. There are no prerequisites. Students are required to attend screenings or watch films on their own."
+    },
+
+    {
+      "difficultyRating" : 1.0,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.0,
+      			"courseName": "Love and Loss in Japanese Literary Traditions: In Translation",
+      			"instructor": "Linda H. Chance",
+      			"id": "EALC552401",
+      			"info": {
+      				"department": "EALC",
+      				"courseNumber": "552",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Arts & Letters Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13.3,
+      				"end": 15,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Love and Loss in Japanese Literary Traditions: In Translation",
+    	"courseDescription": "	How do people make sense of the multiple experiences that the simple words 'love' and 'loss' imply? How do they express their thoughts and feelings to one another? In this course, we will explore some means Japanese culture has found to grapple with these events and sensations. We will also see how these culturally sanctioned frameworks have shaped the ways Japanese view love and loss. Our materials will sample the literary tradition of Japan from earliest times to the early modern and even modern periods. Close readings of a diverse group of texts, including poetry, narrative, theater, and the related arts of calligraphy, painting, and music will structure our inquiry. The class will take an expedition to nearby Woodlands Cemetery to experience poetry in nature. By the end of the course, you should be able to appreciate texts that differ slightly in their value systems, linguistic expressions, and aesthetic sensibilities from those that you may already know. Among the available project work that you may select, if you have basic Japanese, is learning to read a literary manga. All shared class material is in English translation."
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
-  "difficultyRating" : 2.4,
+  "difficultyRating" : 3.4,
 	"LEC": [
 		{
+      "instructorRating" : 2.4,
 			"courseName": "Brain Changes Through Tragedy and Triumph",
 			"instructor": "Jacqueline Cunningham",
 			"id": "BIBB080301",

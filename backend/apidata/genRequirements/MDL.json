@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 1.1,
+    	"LEC": [
+    		{
+            "instructorRating" : 1.2,
+      			"courseName": "Introduction to Human Evolution",
+      			"instructor": "Janet M. Monge",
+      			"id": "ANTH003001",
+      			"info": {
+      				"department": "ANTH",
+      				"courseNumber": "003",
+      				"sectionNumber": "001"
+      			},
+      			"fullfillRequirement": ["Living World Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13,
+      				"end": 14,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Introduction to Human Evolution",
+    	"courseDescription": "How did humans evolve? When did humans start to walk on two legs? How are humans related to non-human primates? This course focuses on the scientific study of human evolution describing the emergence, development, and diversification of our species, Homo sapiens. First we cover the fundamental principles of evolutionary theory and some of the basics of genetics and heredity as they relate to human morphological, physiological, and genetic variation. We then examine what studies of nonhuman primates (monkeys and apes) can reveal about our own evolutionary past, reviewing the behavioral and ecological diversity seen among living primates. We conclude the course examining the "hard" evidence of human evolution - the fossil and material culture record of human history from our earliest primate ancestors to the emergence of modern Homo sapiens. You will also have the opportunity, during recitations, to conduct hands-on exercises collecting and analyzing behavioral, morphological, and genetic data on both humans and nonhuman primates and working with the Department of Anthropology's extensive collection of fossil casts."
+    },
+
+    {
+      "difficultyRating" : 3.3,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.9,
+      			"courseName": "Introduction to Biology A",
+      			"instructor": "John D. O. Wagner",
+      			"id": "BIOL101001",
+      			"info": {
+      				"department": "BIOL",
+      				"courseNumber": "101",
+      				"sectionNumber": "001"
+      			},
+      			"fullfillRequirement": ["Living World Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13,
+      				"end": 14,
+      				"day": "MWF"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Introduction to Biology A",
+    	"courseDescription": "General principles of biology focusing on the basic chemistry of life, cell biology, molecular biology, and genetics in all types of living organisms. Particular emphasis will be given to links between the fundamental processes covered and current challenges of humankind in the areas of energy, food, and health."
+    },
+
+    {
+      "difficultyRating" : 3.3,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.9,
+      			"courseName": "Paleontology",
+      			"instructor": "Lauren Cole Sallan",
+      			"id": "GEOL205401",
+      			"info": {
+      				"department": "GEOL",
+      				"courseNumber": "205",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Living World Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 10.3,
+      				"end": 12,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Paleontology",
+    	"courseDescription": "Geologic history of invertebrates and their inferred life habits, paleoecology, and evolution. Introduction to paleobotany and vertebrate paleontology."
+    }
+  ]
+}

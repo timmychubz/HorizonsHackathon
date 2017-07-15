@@ -1,0 +1,87 @@
+{
+  "Courses" : [
+    {
+      "difficultyRating" : 2.5,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.4,
+      			"courseName": "Introduction to Visual Culture of the Islamic World",
+      			"instructor": "Renata Holod",
+      			"id": "AAMW635401",
+      			"info": {
+      				"department": "AAMW",
+      				"courseNumber": "635",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Cross Cultural Analysis"],
+      			"preReq": [],
+      			"time": {
+      				"start": 12,
+      				"end": 13.3,
+      				"day": "TR"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Introduction to Visual Culture of the Islamic World",
+    	"courseDescription": "A one-semester survey of Islamic art and architecture which examines visual culture as it functions within the larger sphere of Islamic culture in general. Particular attention will be given to relationships between visual culture and literature, using specific case studies, sites or objects which may be related to various branches of Islamic literature, including historical, didactic, philosophical writings, poetry and religious texts. All primary sources are available in English translation."
+    },
+
+    {
+      "difficultyRating" : 1.1,
+    	"LEC": [
+    		{
+            "instructorRating" : 2.5,
+      			"courseName": "Food and Fire: Archaeology in the Laboratory",
+      			"instructor": "Katherine Mattison Moore",
+      			"id": "ANTH148401",
+      			"info": {
+      				"department": "ANTH",
+      				"courseNumber": "148",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Humanities & Social Science Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 13,
+      				"end": 14,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Food and Fire: Archaeology in the Laboratory",
+    	"courseDescription": "This course will let students explore the essential heritage of human technology through archaeology. People have been transforming their environment from the first use of fire for cooking. Since then, humans have adapted to the world they created using the resources around them. We use artifacts to understand how the archaeological record can be used to trace breakthroughs such as breaking stone and bone, baking bread, weaving cloth and firing pottery and metals. The seminar will meet in the Penn Museum's Center for the Analysis of Archaeological Materials. Students will become familiar with the Museum's collections and the scientific methods used to study different materials. Class sessions will include discussions, guest presentations, museum field trips, and hands-on experience in the laboratory."
+    },
+
+    {
+      "difficultyRating" : 3.8,
+    	"LEC": [
+    		{
+            "instructorRating" : 3.2,
+      			"courseName": "Cold War: Global History",
+      			"instructor": "Benjamin Nathans",
+      			"id": "HIST135401",
+      			"info": {
+      				"department": "HIST",
+      				"courseNumber": "135",
+      				"sectionNumber": "401"
+      			},
+      			"fullfillRequirement": ["Humanities & Social Science Sector"],
+      			"preReq": [],
+      			"time": {
+      				"start": 11,
+      				"end": 12,
+      				"day": "MW"
+      			}
+    		},
+    	],
+    	"REC": [],
+    	"LAB": [],
+    	"courseName": "Cold War: Global History",
+    	"courseDescription": "The cold War was more than simply a military confrontation between the United States and the Soviet Union; it was the frame within which the entire world developed (for better or worse) for nearly five decades. This course will examine the cold War as a global phenomenon, covering not only the military and diplomatic history of the period, but also examining the social and cultural impact of the superpower confrontation. We will cover the origins of the conflict, the interplay between periods of tension and detente, the relative significance of disagreements within the opposing blocs, and the relationship between the 'center' of the conflict in the North Atlantic/European area and the global 'periphery'."
+    }
+  ]
+}
