@@ -6,7 +6,7 @@ import math114Classes from '../../backend/apidata/MajorRequirements/math114.json
 import phys101Classes from '../../backend/apidata/MajorRequirements/phys101.json';
 import chem101Classes from '../../backend/apidata/MajorRequirements/chem101.json';
 import engl072Classes from '../../backend/apidata/MajorRequirements/engl072.json';
-import gen1 from '../../backend/apidata/genRequirements/MC1.json';
+// import gen1 from '../../backend/apidata/genRequirements/MC1.json';
 
 const initialState = [
     biol101Classes, math114Classes
@@ -22,7 +22,7 @@ const classSearch = (state = initialState, action) => {
         case types.CHEM_MAJOR:
             return [chem101Classes, math114Classes, math104Classes];
         case types.GENERAL:
-            return [engl072Classes, math104Classes, gen1]
+            return [engl072Classes, math104Classes]
     }
 };
 
