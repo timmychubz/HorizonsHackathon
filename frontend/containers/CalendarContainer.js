@@ -5,7 +5,7 @@ import * as actions from '../actions/index';
 
 const timeBoxInline = (time)=> {
   var color = 'white';
-  if(time.highlight) {
+  if(time.highlighted) {
     color = 'yellow'
   } else if (time.chosen) {
     color = 'grey'

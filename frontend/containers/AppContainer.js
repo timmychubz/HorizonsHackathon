@@ -9,14 +9,17 @@ import CourseCardContainer from './CourseCardContainer';
 
 const AppContainer = ({ name }) => {
     return (
-        <div>
-            <Title name={name} />
-            <SearchContainer />
-            <ScheduleContainer />
-            <CourseCardContainer />
-            <CalendarContainer />
-        
+      <div>
+        <Title name={name} />
+        <div style={{'display':'flex'}}>
+          <SearchContainer style={{'flex':'1', 'overflow':'auto'}}/>
+          <ScheduleContainer style={{'flex':'.8'}}/>
         </div>
+        <div style={{'display':'flex'}}>
+          <CourseCardContainer style={{'flex':'1'}}/>
+          <CalendarContainer style={{'flex':'1.5'}}/>
+        </div>
+      </div>
     );
 };
 

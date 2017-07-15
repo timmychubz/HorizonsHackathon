@@ -26,13 +26,11 @@ const SearchContainer = ({ classSearch, addClass, deleteClass, highlightClass, d
                           <h3><strong>Sections</strong></h3>
                           {
                                 course.LEC.map((section) => (
-                                    <div><p><strong>{section.info.sectionNumber}</strong>, Instructor: {section.instructor}</p> <br />
+                                    <div onMouseOver={() => highlightClass(section, course.courseDescription)}
+                                      onMouseOut={() => dehighlightClass(section)}
+                                      onClick={()=>addClass(section)}><p><strong>{section.info.sectionNumber}</strong>, Instructor: {section.instructor}</p> <br />
                                     <p>{section.time.day} {section.time.start} - {section.time.end}</p>
-                                    <button onClick={() => addClass(section)}>Add this class</button>
-                                    <button onClick={() => highlightClass(section, course.courseDescription)}>Highlight this course</button>
-                                    <button onClick={() => dehighlightClass(section)}>deHighlight this course</button>
                                   </div>
-
                                 ))
                           }
                       </div>
