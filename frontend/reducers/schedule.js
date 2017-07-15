@@ -1,16 +1,17 @@
 import * as types from '../actions/types';
 
-const initialState = [];
+const initialState = Array(5).fill(null);
 
 const schedule = (state = initialState, action) => {
-    console.log('in schedule reducer', action);
     const newState = state.slice();
-    console.log('newState is', newState);
     switch(action.type) {
         case types.ADD_CLASS:
-            console.log('add_class in schedule red has action.classObj', action.classObj );
-            newState.push(action.classObj);
-            console.log('newState is now after', newState);
+            for (var i = 0; i < newState.length + 1; i++) {
+                if(!newState[i]) {
+                    newState[i] = action.classObj;
+                    break;
+                }
+            }
             return newState;
         case types.DELETE_CLASS:
             let index;

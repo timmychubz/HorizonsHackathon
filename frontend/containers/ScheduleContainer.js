@@ -12,9 +12,11 @@ const ScheduleContainer = ({ schedule, addClass, deleteClass }) => {
         <div className="selectedcourseblockcontainer">
             {
               schedule.map((section) => (
+                  section ?
                   <div className="selectedcourseblock">
                       <h1>{section.info.department} {section.info.courseNumber} {section.info.sectionNumber}</h1>
-                  </div>
+                  </div> :
+                  <div className="emptyselectedcourseblock"></div>
               ))
             }
         </div>
