@@ -1,1 +1,141 @@
-{"LEC":[{"courseName":"Asian American Literature","instructor":"Josephine Nock-Hee Park","id":"ENGL072401","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"401"},"fullfillRequirement":["Arts & Letters Sector","Cultural Diversity in the US"],"preReq":[],"time":{"start":11,"end":12,"day":"MW"}}],"REC":[{"courseName":"Asian American Literature","id":"ENGL072402","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"402"},"time":{"start":11,"end":12,"day":"F"}},{"courseName":"Asian American Literature","id":"ENGL072403","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"403"},"time":{"start":11,"end":12,"day":"F"}},{"courseName":"Asian American Literature","id":"ENGL072404","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"404"},"time":{"start":11,"end":12,"day":"F"}},{"courseName":"Asian American Literature","id":"ENGL072405","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"405"},"time":{"start":11,"end":12,"day":"F"}},{"courseName":"Asian American Literature","id":"ENGL072406","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"406"},"time":{"start":11,"end":12,"day":"F"}},{"courseName":"Asian American Literature","id":"ENGL072407","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"407"},"time":{"start":11,"end":12,"day":"F"}},{"courseName":"Asian American Literature","id":"ENGL072408","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"408"},"time":{"start":11,"end":12,"day":"F"}},{"courseName":"Asian American Literature","id":"ENGL072409","info":{"department":"ENGL","courseNumber":"072","sectionNumber":"409"},"time":{"start":11,"end":12,"day":"F"}}],"LAB":[],"courseName":"Asian American Literature","courseDescription":"An overview of Asian American literature from its beginnings at the turn of the twentieth century to the present. This course covers a wide range of Asian American novels, plays, and poems, situating them in the contexts of American history and minority communities and considering the variety of formal strategies these different texts take. See the English Department's website at www.english.upenn.edu for a description of the current offerings."}
+{
+	"LEC": [
+		{
+			"courseName": "Asian American Literature",
+			"instructor": "Josephine Nock-Hee Park",
+			"id": "ENGL072401",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "401"
+			},
+			"fullfillRequirement": [
+				"Arts & Letters Sector",
+				"Cultural Diversity in the US"
+			],
+			"preReq": [],
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "MW"
+			}
+		}
+	],
+	"REC": [
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072402",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "402"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072403",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "403"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072404",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "404"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072405",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "405"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072406",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "406"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072407",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "407"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072408",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "408"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		},
+		{
+			"courseName": "Asian American Literature",
+			"id": "ENGL072409",
+			"info": {
+				"department": "ENGL",
+				"courseNumber": "072",
+				"sectionNumber": "409"
+			},
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "F"
+			}
+		}
+	],
+	"LAB": [],
+	"courseName": "Asian American Literature",
+	"courseDescription": "An overview of Asian American literature from its beginnings at the turn of the twentieth century to the present. This course covers a wide range of Asian American novels, plays, and poems, situating them in the contexts of American history and minority communities and considering the variety of formal strategies these different texts take. See the English Department's website at www.english.upenn.edu for a description of the current offerings."
+}

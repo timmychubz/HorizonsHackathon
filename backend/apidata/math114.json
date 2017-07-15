@@ -1,1 +1,317 @@
-{"LEC":[{"courseName":"Calculus, Part II","instructor":"James Haglund","id":"MATH114001","info":{"department":"MATH","courseNumber":"114","sectionNumber":"001"},"fullfillRequirement":["Formal Reasoning Course"],"preReq":["Math 104"],"time":{"start":11,"end":12,"day":"MWF"}},{"courseName":"Calculus, Part II","instructor":"Ron Donagi","id":"MATH114002","info":{"department":"MATH","courseNumber":"114","sectionNumber":"002"},"fullfillRequirement":["Formal Reasoning Course"],"preReq":["Math 104"],"time":{"start":10.3,"end":12,"day":"TR"}},{"courseName":"Calculus, Part II","instructor":"Justin Reid Hilburn","id":"MATH114003","info":{"department":"MATH","courseNumber":"114","sectionNumber":"003"},"fullfillRequirement":["Formal Reasoning Course"],"preReq":["Math 104"],"time":{"start":13.3,"end":15,"day":"TR"}},{"courseName":"Calculus, Part II","instructor":"","id":"MATH114004","info":{"department":"MATH","courseNumber":"114","sectionNumber":"004"},"fullfillRequirement":["Formal Reasoning Course"],"preReq":["Math 104"],"time":{"start":14,"end":15,"day":"MWF"}}],"REC":[{"courseName":"Calculus, Part II","id":"MATH114201","info":{"department":"MATH","courseNumber":"114","sectionNumber":"201"},"time":{"start":8.3,"end":9,"day":"T"}},{"courseName":"Calculus, Part II","id":"MATH114202","info":{"department":"MATH","courseNumber":"114","sectionNumber":"202"},"time":{"start":9.3,"end":10,"day":"T"}},{"courseName":"Calculus, Part II","id":"MATH114203","info":{"department":"MATH","courseNumber":"114","sectionNumber":"203"},"time":{"start":8.3,"end":9,"day":"R"}},{"courseName":"Calculus, Part II","id":"MATH114204","info":{"department":"MATH","courseNumber":"114","sectionNumber":"204"},"time":{"start":9.3,"end":10,"day":"R"}},{"courseName":"Calculus, Part II","id":"MATH114205","info":{"department":"MATH","courseNumber":"114","sectionNumber":"205"},"time":{"start":8.3,"end":9,"day":"T"}},{"courseName":"Calculus, Part II","id":"MATH114206","info":{"department":"MATH","courseNumber":"114","sectionNumber":"206"},"time":{"start":9.3,"end":10,"day":"T"}},{"courseName":"Calculus, Part II","id":"MATH114207","info":{"department":"MATH","courseNumber":"114","sectionNumber":"207"},"time":{"start":8.3,"end":9,"day":"R"}},{"courseName":"Calculus, Part II","id":"MATH114208","info":{"department":"MATH","courseNumber":"114","sectionNumber":"208"},"time":{"start":9.3,"end":10,"day":"R"}},{"courseName":"Calculus, Part II","id":"MATH114211","info":{"department":"MATH","courseNumber":"114","sectionNumber":"211"},"time":{"start":8,"end":9,"day":"M"}},{"courseName":"Calculus, Part II","id":"MATH114212","info":{"department":"MATH","courseNumber":"114","sectionNumber":"212"},"time":{"start":9,"end":10,"day":"M"}},{"courseName":"Calculus, Part II","id":"MATH114213","info":{"department":"MATH","courseNumber":"114","sectionNumber":"213"},"time":{"start":8,"end":9,"day":"W"}},{"courseName":"Calculus, Part II","id":"MATH114214","info":{"department":"MATH","courseNumber":"114","sectionNumber":"214"},"time":{"start":9,"end":10,"day":"W"}},{"courseName":"Calculus, Part II","id":"MATH114215","info":{"department":"MATH","courseNumber":"114","sectionNumber":"215"},"time":{"start":8,"end":9,"day":"M"}},{"courseName":"Calculus, Part II","id":"MATH114216","info":{"department":"MATH","courseNumber":"114","sectionNumber":"216"},"time":{"start":9,"end":10,"day":"M"}},{"courseName":"Calculus, Part II","id":"MATH114217","info":{"department":"MATH","courseNumber":"114","sectionNumber":"217"},"time":{"start":8,"end":9,"day":"W"}},{"courseName":"Calculus, Part II","id":"MATH114218","info":{"department":"MATH","courseNumber":"114","sectionNumber":"218"},"time":{"start":9,"end":10,"day":"W"}}],"LAB":[],"courseName":"Calculus, Part II","courseDescription":"Functions of several variables, vector-valued functions, partial derivatives and applications, double and triple integrals, conic sections, polar coordinates, vectors and vector calculus, first order ordinary differential equations. Applications to physical sciences. Use of symbolic manipulation and graphics software in calculus."}
+{
+	"LEC": [
+		{
+			"courseName": "Calculus, Part II",
+			"instructor": "James Haglund",
+			"id": "MATH114001",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "001"
+			},
+			"fullfillRequirement": [
+				"Formal Reasoning Course"
+			],
+			"preReq": [
+				"Math 104"
+			],
+			"time": {
+				"start": 11,
+				"end": 12,
+				"day": "MWF"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"instructor": "Ron Donagi",
+			"id": "MATH114002",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "002"
+			},
+			"fullfillRequirement": [
+				"Formal Reasoning Course"
+			],
+			"preReq": [
+				"Math 104"
+			],
+			"time": {
+				"start": 10.3,
+				"end": 12,
+				"day": "TR"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"instructor": "Justin Reid Hilburn",
+			"id": "MATH114003",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "003"
+			},
+			"fullfillRequirement": [
+				"Formal Reasoning Course"
+			],
+			"preReq": [
+				"Math 104"
+			],
+			"time": {
+				"start": 13.3,
+				"end": 15,
+				"day": "TR"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"instructor": "",
+			"id": "MATH114004",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "004"
+			},
+			"fullfillRequirement": [
+				"Formal Reasoning Course"
+			],
+			"preReq": [
+				"Math 104"
+			],
+			"time": {
+				"start": 14,
+				"end": 15,
+				"day": "MWF"
+			}
+		}
+	],
+	"REC": [
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114201",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "201"
+			},
+			"time": {
+				"start": 8.3,
+				"end": 9,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114202",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "202"
+			},
+			"time": {
+				"start": 9.3,
+				"end": 10,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114203",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "203"
+			},
+			"time": {
+				"start": 8.3,
+				"end": 9,
+				"day": "R"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114204",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "204"
+			},
+			"time": {
+				"start": 9.3,
+				"end": 10,
+				"day": "R"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114205",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "205"
+			},
+			"time": {
+				"start": 8.3,
+				"end": 9,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114206",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "206"
+			},
+			"time": {
+				"start": 9.3,
+				"end": 10,
+				"day": "T"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114207",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "207"
+			},
+			"time": {
+				"start": 8.3,
+				"end": 9,
+				"day": "R"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114208",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "208"
+			},
+			"time": {
+				"start": 9.3,
+				"end": 10,
+				"day": "R"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114211",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "211"
+			},
+			"time": {
+				"start": 8,
+				"end": 9,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114212",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "212"
+			},
+			"time": {
+				"start": 9,
+				"end": 10,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114213",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "213"
+			},
+			"time": {
+				"start": 8,
+				"end": 9,
+				"day": "W"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114214",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "214"
+			},
+			"time": {
+				"start": 9,
+				"end": 10,
+				"day": "W"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114215",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "215"
+			},
+			"time": {
+				"start": 8,
+				"end": 9,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114216",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "216"
+			},
+			"time": {
+				"start": 9,
+				"end": 10,
+				"day": "M"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114217",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "217"
+			},
+			"time": {
+				"start": 8,
+				"end": 9,
+				"day": "W"
+			}
+		},
+		{
+			"courseName": "Calculus, Part II",
+			"id": "MATH114218",
+			"info": {
+				"department": "MATH",
+				"courseNumber": "114",
+				"sectionNumber": "218"
+			},
+			"time": {
+				"start": 9,
+				"end": 10,
+				"day": "W"
+			}
+		}
+	],
+	"LAB": [],
+	"courseName": "Calculus, Part II",
+	"courseDescription": "Functions of several variables, vector-valued functions, partial derivatives and applications, double and triple integrals, conic sections, polar coordinates, vectors and vector calculus, first order ordinary differential equations. Applications to physical sciences. Use of symbolic manipulation and graphics software in calculus."
+}

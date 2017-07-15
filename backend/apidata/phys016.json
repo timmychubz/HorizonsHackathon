@@ -1,1 +1,27 @@
-{"LEC":[{"courseName":"Energy, Oil, and Global Warming","instructor":"Alison M. Sweeney","id":"PHYS016001","info":{"department":"PHYS","courseNumber":"016","sectionNumber":"001"},"fullfillRequirement":[],"preReq":["Algebra and Trigonometry"],"time":{"start":10.3,"end":12,"day":"TR"}}],"REC":[],"LAB":[],"courseName":"Energy, Oil, and Global Warming","courseDescription":"The developed world's dependence on fossil fuels for energy production has extremely undesirable economic, environmental, and political consequences, and is likely to be mankind's greatest challenge in the 21st century. We describe the physical principles of energy, its production and consumption, and environmental consequences, including the greenhouse effect. We will examine a number of alternative modes of energy generation - fossil fuels, biomass, wind, solar, hydro, and nuclear - and study the physical and technological aspects of each, and their societal, environmental and economic impacts over the construction and operational lifetimes. No previous study of physics is assumed."}
+{
+	"LEC": [
+		{
+			"courseName": "Energy, Oil, and Global Warming",
+			"instructor": "Alison M. Sweeney",
+			"id": "PHYS016001",
+			"info": {
+				"department": "PHYS",
+				"courseNumber": "016",
+				"sectionNumber": "001"
+			},
+			"fullfillRequirement": [],
+			"preReq": [
+				"Algebra and Trigonometry"
+			],
+			"time": {
+				"start": 10.3,
+				"end": 12,
+				"day": "TR"
+			}
+		}
+	],
+	"REC": [],
+	"LAB": [],
+	"courseName": "Energy, Oil, and Global Warming",
+	"courseDescription": "The developed world's dependence on fossil fuels for energy production has extremely undesirable economic, environmental, and political consequences, and is likely to be mankind's greatest challenge in the 21st century. We describe the physical principles of energy, its production and consumption, and environmental consequences, including the greenhouse effect. We will examine a number of alternative modes of energy generation - fossil fuels, biomass, wind, solar, hydro, and nuclear - and study the physical and technological aspects of each, and their societal, environmental and economic impacts over the construction and operational lifetimes. No previous study of physics is assumed."
+}
