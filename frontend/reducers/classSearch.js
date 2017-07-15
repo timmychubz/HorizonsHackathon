@@ -22,7 +22,7 @@ const classSearch = (state = initialState, action) => {
         case types.CHEM_MAJOR:
             return [chem101Classes, math114Classes, math104Classes];
         case types.GENERAL:
-            return [engl072Classes, math104Classes]
+            return [engl072Classes, math104Classes];
     }
 };
 
