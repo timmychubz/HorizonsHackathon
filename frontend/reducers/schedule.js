@@ -15,10 +15,11 @@ const schedule = (state = initialState, action) => {
             return newState;
         case types.DELETE_CLASS:
             let index;
+            console.log('enter here now');
             newState.forEach((classObj, indToDelete) => {
-                index = classObj.id === action.classObj.id ? indToDelete : index;
+                index = classObj && classObj.id === action.classObj.id ? indToDelete : index;
             });
-            newState.splice(index, 1);
+            newState.splice(index, 1, null);
             return newState;
         default:
             return state;

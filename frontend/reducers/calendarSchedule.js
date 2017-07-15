@@ -18,7 +18,7 @@ for (let i = 0; i < 5; i++) {
         initialState[i].times[j] = {
             time: j,
             chosen: false,
-            highlighted: null
+            highlighted: false
         };
     }
 }

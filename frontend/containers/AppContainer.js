@@ -13,6 +13,7 @@ const AppContainer = ({ name }) => {
             <SearchContainer />
             <ScheduleContainer />
             <CalendarContainer />
+        
         </div>
     );
 };

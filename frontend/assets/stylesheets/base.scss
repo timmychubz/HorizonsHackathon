@@ -7,6 +7,10 @@ h1 {
 div {
   font-family: 'Lato', sans-serif;
 }
+
+SearchContainer, ScheduleContainer {
+  display: inline-block;
+}
 .calendarContainer {
   display: flex;
   flex: 1 ;
