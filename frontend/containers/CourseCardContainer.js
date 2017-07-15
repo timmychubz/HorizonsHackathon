@@ -31,7 +31,9 @@ const ScheduleContainer = ({ highlightedClass }) => {
         </div>
       ) :
       (
-        <div className="coursecard"></div>
+        <div className="coursecard empty">
+          <div><h1>Hover over a class to see more details</h1></div>
+        </div>
       );
 };
 

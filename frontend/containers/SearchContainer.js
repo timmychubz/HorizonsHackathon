@@ -37,7 +37,7 @@ const SearchContainer = ({ classSearch, genedSearch, electiveSearch, courseView,
                         <div className="coursesectionlistblock"
                             onMouseOver={() => highlightClass(section, course.courseDescription)}
                             onMouseOut={() => dehighlightClass(section)}
-                            onClick={()=> addClass(section)}>
+                            onClick={()=> addClass(section, course.courseDescription)}>
                             <h1>Section {section.info.sectionNumber} {section.instructor}</h1>
                             <div>
                               <div><p>Instructor: {section.instructorRating}</p></div>

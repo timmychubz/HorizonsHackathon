@@ -12,6 +12,41 @@ const AppContainer = () => {
         <div style={{'width':'100%', 'height': '100px'}}>Schedulizer</div>
         <div className="dashboarddiv">
           <div className="studentprofilediv">
+                  <p className="selectmajorandminor">Select Major/Minor</p>
+                  <div className="selectmajorandminorblockarraycontainer">
+                  <p> Major</p>
+                      <div className="selectmajorandminorblockarrayempty">
+                      <div>Chemistry</div>
+                      <div className="arrow-down"></div>
+                  </div>
+              </div>
+              <div className="selectmajorandminorblockarraycontainer">
+                  <p> Major</p>
+                      <div className="selectmajorandminorblockarrayempty">
+                      <div>Select</div>
+                      <div className="arrow-down"></div>
+                  </div>
+              </div>
+              <div className="selectmajorandminorblockarraycontainer">
+                      <p>Minor</p>
+                      <div className="selectmajorandminorblockarrayempty">
+                      <div>Select</div>
+                      <div className="arrow-down"></div>
+                  </div>
+              </div>
+              <div className="selectmajorandminorblockdiv">
+                  <div className="selectmajorandminorblockcontainer">
+                      <p>Eligible Major Requirements</p>
+                      <div className="selectmajorandminorblock"></div>
+                      <div className="selectmajorandminorblock"></div>
+                      <div className="selectmajorandminorblock"></div>
+                  </div>
+                  <div className="selectmajorandminorblockcontainer">
+                      <p>Eligible Minor Requirements</p>
+                      <div className="selectmajorandminorblock"></div>
+                      <div className="selectmajorandminorblock"></div>
+                  </div>
+              </div>
           </div>
           <div className="schedulerdiv">
             <div className="courseselectordiv">

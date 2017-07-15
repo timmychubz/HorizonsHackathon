@@ -9,6 +9,7 @@ const schedule = (state = initialState, action) => {
             for (var i = 0; i < newState.length + 1; i++) {
                 if(!newState[i]) {
                     newState[i] = action.classObj;
+                    newState[i].courseDescription = action.description;
                     break;
                 }
             }
