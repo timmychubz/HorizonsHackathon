@@ -3,12 +3,13 @@ import * as types from '../actions/types';
 const initialState = [];
 
 const dayToWeekday = {
-  0: 'Monday',
-  1: 'Tuesday',
-  2: 'Wednesday',
-  3: 'Thursday',
-  4: 'Friday'
-}
+    0: 'Monday',
+    1: 'Tuesday',
+    2: 'Wednesday',
+    3: 'Thursday',
+    4: 'Friday'
+};
+
 for (let i = 0; i < 5; i++) {
     initialState[i] = {
         day: dayToWeekday[i],
@@ -58,7 +59,6 @@ const dayTextToArray = ({ day, start, end }) => {
 };
 
 const calendarSchedule = (state = initialState, action) => {
-    console.log('in calendarSchedule reducer', action);
     const timeBlocks = action.classObj ? dayTextToArray(action.classObj.time) : null;
     const newState = state.slice();
 

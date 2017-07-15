@@ -5,6 +5,7 @@ import Title from '../components/Title';
 import CalendarContainer from './CalendarContainer';
 import ScheduleContainer from './ScheduleContainer';
 import SearchContainer from './SearchContainer';
+import CourseCardContainer from './CourseCardContainer';
 
 const AppContainer = ({ name }) => {
     return (
@@ -12,6 +13,7 @@ const AppContainer = ({ name }) => {
             <Title name={name} />
             <SearchContainer />
             <ScheduleContainer />
+            <CourseCardContainer />
             <CalendarContainer />
         
         </div>

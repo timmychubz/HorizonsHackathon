@@ -21,7 +21,59 @@
 				"start": 10.3,
 				"end": 12,
 				"day": "TR"
-			}
+			},
+			"REC": [
+              {
+                  "course_id": "104",
+                  "section_id": "211",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "212",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "213",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "214",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "215",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "216",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "217",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "218",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "219",
+                  "subject": "MATH"
+              },
+              {
+                  "course_id": "104",
+                  "section_id": "220",
+                  "subject": "MATH"
+              }
+          ]
 		},
 		{
 			"instructorRating" : 3.7,
@@ -43,7 +95,19 @@
 				"start": 10.3,
 				"end": 12,
 				"day": "TR"
-			}
+			},
+			"REC": [
+                {
+                    "course_id": "104",
+                    "section_id": "221",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "222",
+                    "subject": "MATH"
+                }
+            ]
 		},
 		{
 			"instructorRating" : 2.6,
@@ -65,7 +129,49 @@
 				"start": 15,
 				"end": 16,
 				"day": "TR"
-			}
+			},
+			"REC": [
+                {
+                    "course_id": "104",
+                    "section_id": "231",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "232",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "233",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "234",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "235",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "236",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "237",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "238",
+                    "subject": "MATH"
+                }
+            ]
 		},
 		{
 			"instructorRating" : 3.1,
@@ -87,7 +193,19 @@
 				"start": 13.3,
 				"end": 15,
 				"day": "TR"
-			}
+			},
+			"REC": [
+                {
+                    "course_id": "104",
+                    "section_id": "241",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "242",
+                    "subject": "MATH"
+                }
+            ]
 		},
 		{
 			"instructorRating" : 3.5,
@@ -109,7 +227,39 @@
 				"start": 9,
 				"end": 10,
 				"day": "MWF"
-			}
+			},
+			"REC": [
+                {
+                    "course_id": "104",
+                    "section_id": "251",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "252",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "253",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "254",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "255",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "256",
+                    "subject": "MATH"
+                }
+            ]
 		},
 		{
 			"instructorRating" : 3.8,
@@ -131,208 +281,51 @@
 				"start": 13,
 				"end": 14,
 				"day": "MWF"
-			}
+			},
+			"REC": [
+                {
+                    "course_id": "104",
+                    "section_id": "261",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "262",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "263",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "264",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "265",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "266",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "267",
+                    "subject": "MATH"
+                },
+                {
+                    "course_id": "104",
+                    "section_id": "268",
+                    "subject": "MATH"
+                }
+            ]
 		}
 	],
-	"REC": [
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104211",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "211"
-			},
-			"time": {
-				"start": 8,
-				"end": 9,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104212",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "212"
-			},
-			"time": {
-				"start": 9,
-				"end": 10,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104213",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "213"
-			},
-			"time": {
-				"start": 8,
-				"end": 9,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104214",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "214"
-			},
-			"time": {
-				"start": 9,
-				"end": 10,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104215",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "215"
-			},
-			"time": {
-				"start": 8,
-				"end": 9,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104216",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "216"
-			},
-			"time": {
-				"start": 9,
-				"end": 10,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104217",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "217"
-			},
-			"time": {
-				"start": 18,
-				"end": 19,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104218",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "218"
-			},
-			"time": {
-				"start": 19,
-				"end": 20,
-				"day": "M"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104219",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "219"
-			},
-			"time": {
-				"start": 18,
-				"end": 19,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104220",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "220"
-			},
-			"time": {
-				"start": 19,
-				"end": 20,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104221",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "221"
-			},
-			"time": {
-				"start": 8,
-				"end": 9,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104222",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "222"
-			},
-			"time": {
-				"start": 9,
-				"end": 10,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104231",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "231"
-			},
-			"time": {
-				"start": 8,
-				"end": 9,
-				"day": "W"
-			}
-		},
-		{
-			"courseName": "Calculus, Part I",
-			"id": "MATH104232",
-			"info": {
-				"department": "MATH",
-				"courseNumber": "104",
-				"sectionNumber": "232"
-			},
-			"time": {
-				"start": 9,
-				"end": 10,
-				"day": "W"
-			}
-		}
-	],
-	"LAB": [],
 	"courseName": "Calculus, Part I",
 	"courseDescription": "Brief review of High School calculus, applications of integrals, transcendental functions, methods of integration, infinite series, Taylor's theorem, and first order ordinary differential equations. Use of symbolic manipulation and graphics software in calculus."
 }
