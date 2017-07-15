@@ -16,9 +16,8 @@ for (let i = 0; i < 5; i++) {
     }
 }
 
-
 const calendarSchedule = (state = initialState, action) => {
-    const timeBlocks = action.time;
+    const timeBlocks = action.classObj.time;
     console.log(timeBlocks);
     const newState = state.slice();
 

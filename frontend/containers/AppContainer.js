@@ -8,7 +8,6 @@ const AppContainer = ({ name }) => {
     return (
         <div>
             <Title name={name} />
-
             <CalendarContainer />
         </div>
     );
