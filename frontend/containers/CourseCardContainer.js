@@ -24,9 +24,9 @@ const ScheduleContainer = ({ highlightedClass }) => {
             <div className="professor"><p>Instructor: {highlightedClass.instructor}</p></div>
             <div className="descriptiontitle"><p>Course Description</p></div>
             <div className="description"><p>{highlightedClass.description}</p></div>
-            <div className="recitation"><p>{highlightedClass.REC? 'Mandatory Recitation': ''}</p></div>
+            <div className="recitation"><p>{highlightedClass.REC ? 'Mandatory Recitation': ''}</p></div>
             <div className="recitationsection"><p>{highlightedClass.REC ? highlightedClass.REC.map(function(x){return x.info.sectionNumber + " "}) : ""}</p></div>
-            <div className="recitation"><p>{highlightedClass.LAB? 'Mandatory Laboratory': ''}</p></div>
+            <div className="recitation"><p>{highlightedClass.LAB ? 'Mandatory Laboratory': ''}</p></div>
             <div className="recitationsection"><p>{highlightedClass.LAB ? highlightedClass.LAB.map(function(x){return x.info.sectionNumber + " "}) : ""}</p></div>
         </div>
       ) :

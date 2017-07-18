@@ -519,9 +519,19 @@ SearchContainer, ScheduleContainer {
     padding: 35px;
 }
 
+.navBar {
+    font-size: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Whitney SSm A'
+}
+
 .studentprofilediv {
     flex: 2.5;
-    width: 600px;
+    width: 400px;
     height: 833px;
     background: #FFFFFF;
     box-shadow: inset 0 1px 3px 0 rgba(0,0,0,0.50);
